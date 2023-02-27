@@ -33,6 +33,9 @@ I don't care how big this section gets over time, as long as it is manageable.
 -Jukua Fanmaster (Low Priority)
 -SNS Fanmaster
 -Whitty Fanmaster (High priority.)
+-FlimFlam Fanmaster
+-HELLO BOY WHAT ARE YOU DOING HERE Fanmaster
+-VS Mario (the one with the Peach over GF skin.)
 
 ----------------------------------------------
 
