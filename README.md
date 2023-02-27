@@ -75,7 +75,7 @@ rest of the rise n' skate team - that mod is the reason im even making an engine
 ----------------------------------------------
 SHOUTOUTS
 ----------------------------------------------
-[j](https://github.com/j) - j
+[j](https://github.com/j) - Jordan Stout is real!!!
 
 ----------------------------------------------
 How to Compile:
