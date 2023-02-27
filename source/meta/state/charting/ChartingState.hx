@@ -1,4 +1,4 @@
-package meta.state.charting;
+/**package meta.state.charting;
 
 import flixel.FlxBasic;
 import flixel.FlxCamera;
@@ -52,11 +52,11 @@ using StringTools;
 import sys.thread.Thread;
 #end
 
-/**
+
 	As the name implies, this is the class where all of the charting state stuff happens, so when you press 7 the game
 	state switches to this one, where you get to chart songs and such. I'm planning on overhauling this entirely in the future
 	and making it both more practical and more user friendly.
-**/
+
 class ChartingState extends MusicBeatState
 {
 	var _song:SwagSong;
@@ -273,7 +273,7 @@ class ChartingState extends MusicBeatState
 				}
 			}
 		}
-		// */
+		// 
 
 		if (FlxG.keys.justPressed.ENTER)
 		{
@@ -511,10 +511,10 @@ class ChartingState extends MusicBeatState
 				// set the note at the current note map
 				curNoteMap.set(note, [sustainVis, sustainEnd]);
 			}
-		 */
+		 
 	}
 
-	///*
+
 	var coolGrid:FlxBackdrop;
 	var coolGradient:FlxSprite;
 
@@ -557,5 +557,6 @@ class ChartingState extends MusicBeatState
 		vocals.play();
 	}
 
-	// */
+	// 
 }
+/**
