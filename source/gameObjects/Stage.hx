@@ -336,20 +336,26 @@ class Stage extends FlxTypedGroup<FlxBasic>
 				bg.scale.set(6, 6);
 				add(bg);
 /**
+
+
+
 	Hex Stage Code Starts Here, copied from V.S. Hex: The Weekend Update (v2)
 There's quite a bit of stuff here. I'll try to see if I can reduce it later.
+
+
+
 **/
-							case 'hex':
+			case 'hex':
 				{
 					camZoom = 0.9;
 					curStage = 'hex';
-					var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('stageback', 'hex'));
+					var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('backgrounds/hex/stageback', 'hex'));
 					bg.antialiasing = true;
 					bg.scrollFactor.set(0.9, 0.9);
 					bg.active = false;
 					toAdd.push(bg);
 
-					var stageFront:FlxSprite = new FlxSprite(-650, 600).loadGraphic(Paths.image('stagefront', 'hex'));
+					var stageFront:FlxSprite = new FlxSprite(-650, 600).loadGraphic(Paths.image('backgrounds/hex/stagefront', 'hex'));
 					stageFront.setGraphicSize(Std.int(stageFront.width * 1.1));
 					stageFront.updateHitbox();
 					stageFront.antialiasing = true;
@@ -361,13 +367,13 @@ There's quite a bit of stuff here. I'll try to see if I can reduce it later.
 				{
 					camZoom = 0.9;
 					curStage = 'hexss';
-					var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('sunset/stageback', 'hex'));
+					var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('backgrounds/hex/sunset/stageback', 'hex'));
 					bg.antialiasing = true;
 					bg.scrollFactor.set(0.9, 0.9);
 					bg.active = false;
 					toAdd.push(bg);
 
-					var stageFront:FlxSprite = new FlxSprite(-650, 600).loadGraphic(Paths.image('sunset/stagefront', 'hex'));
+					var stageFront:FlxSprite = new FlxSprite(-650, 600).loadGraphic(Paths.image('backgrounds/hex/sunset/stagefront', 'hex'));
 					stageFront.setGraphicSize(Std.int(stageFront.width * 1.1));
 					stageFront.updateHitbox();
 					stageFront.antialiasing = true;
@@ -379,13 +385,13 @@ There's quite a bit of stuff here. I'll try to see if I can reduce it later.
 				{
 					camZoom = 0.9;
 					curStage = 'hexn';
-					var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('night/stageback', 'hex'));
+					var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('backgrounds/hex/night/stageback', 'hex'));
 					bg.antialiasing = true;
 					bg.scrollFactor.set(0.9, 0.9);
 					bg.active = false;
 					toAdd.push(bg);
 
-					var stageFront:FlxSprite = new FlxSprite(-650, 600).loadGraphic(Paths.image('night/stagefront', 'hex'));
+					var stageFront:FlxSprite = new FlxSprite(-650, 600).loadGraphic(Paths.image('backgrounds/hex/night/stagefront', 'hex'));
 					stageFront.setGraphicSize(Std.int(stageFront.width * 1.1));
 					stageFront.updateHitbox();
 					stageFront.antialiasing = true;
@@ -397,13 +403,13 @@ There's quite a bit of stuff here. I'll try to see if I can reduce it later.
 				{
 					camZoom = 0.9;
 					curStage = 'hexg';
-					swagBacks['unGlitchedBG'] = new FlxSprite(-600, -200).loadGraphic(Paths.image('glitcher/stageback', 'hex'));
+					swagBacks['unGlitchedBG'] = new FlxSprite(-600, -200).loadGraphic(Paths.image('backgrounds/hex/glitcher/stageback', 'hex'));
 					swagBacks['unGlitchedBG'].antialiasing = true;
 					swagBacks['unGlitchedBG'].scrollFactor.set(0.9, 0.9);
 					swagBacks['unGlitchedBG'].active = false;
 					toAdd.push(swagBacks['unGlitchedBG']);
 
-					swagBacks['unGlitchedStageFront'] = new FlxSprite(-650, 600).loadGraphic(Paths.image('glitcher/stagefront', 'hex'));
+					swagBacks['unGlitchedStageFront'] = new FlxSprite(-650, 600).loadGraphic(Paths.image('backgrounds/hex/glitcher/stagefront', 'hex'));
 					swagBacks['unGlitchedStageFront'].setGraphicSize(Std.int(swagBacks['unGlitchedStageFront'].width * 1.1));
 					swagBacks['unGlitchedStageFront'].updateHitbox();
 					swagBacks['unGlitchedStageFront'].antialiasing = true;
@@ -413,7 +419,7 @@ There's quite a bit of stuff here. I'll try to see if I can reduce it later.
 
 					PlayState.glitcherDad = new Character(100, 100, 'hex-wire');
 					PlayState.glitcherBF = new Boyfriend(770, 450, 'bf-wire');
-					swagBacks['glitcherStage'] = new FlxSprite(-600, -200).loadGraphic(Paths.image('WIRE/WIREStageBack', 'hex'));
+					swagBacks['glitcherStage'] = new FlxSprite(-600, -200).loadGraphic(Paths.image('backgrounds/hex/WIRE/WIREStageBack', 'hex'));
 					swagBacks['glitcherStage'].antialiasing = true;
 					swagBacks['glitcherStage'].scrollFactor.set(0.9, 0.9);
 					swagBacks['glitcherStage'].active = false;
@@ -429,27 +435,27 @@ There's quite a bit of stuff here. I'll try to see if I can reduce it later.
 					camZoom = 0.9;
 					curStage = 'hexw';
 					if (PlayState.SONG.songId.toLowerCase() == "cooling")
-						swagBacks['hexBack'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('weekend/hexBack', 'hex'));
+						swagBacks['hexBack'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('backgrounds/hex/weekend/hexBack', 'hex'));
 					else
-						swagBacks['hexBack'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('weekend/hexBack_noVis', 'hex'));
+						swagBacks['hexBack'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('backgrounds/hex/weekend/hexBack_noVis', 'hex'));
 					swagBacks['hexBack'].antialiasing = true;
 					swagBacks['hexBack'].scrollFactor.set(0.9, 0.9);
 					swagBacks['hexBack'].setGraphicSize(Std.int(swagBacks['hexBack'].width * 1.5));
 
-					swagBacks['hexFront'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('weekend/hexFront', 'hex'));
+					swagBacks['hexFront'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('backgrounds/hex/weekend/hexFront', 'hex'));
 					swagBacks['hexFront'].antialiasing = true;
 					swagBacks['hexFront'].scrollFactor.set(0.9, 0.9);
 					swagBacks['hexFront'].setGraphicSize(Std.int(swagBacks['hexFront'].width * 1.5));
 
-					swagBacks['topOverlay'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('weekend/topOverlay', 'hex'));
+					swagBacks['topOverlay'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('backgrounds/hex/weekend/topOverlay', 'hex'));
 					swagBacks['topOverlay'].antialiasing = true;
 					swagBacks['topOverlay'].scrollFactor.set(0.9, 0.9);
 					swagBacks['topOverlay'].setGraphicSize(Std.int(swagBacks['topOverlay'].width * 1.5));
 
 					var sprite:FlxSprite = new FlxSprite(42, -14);
-					sprite.frames = Paths.getSparrowAtlas('weekend/crowd', "hex");
+					sprite.frames = Paths.getSparrowAtlas('backgrounds/hex/weekend/crowd', "hex");
 					if (PlayState.SONG.songId == "java")
-						sprite.frames = Paths.getSparrowAtlas('weekend/javaCrowd', "hex");
+						sprite.frames = Paths.getSparrowAtlas('backgrounds/hex/weekend/javaCrowd', "hex");
 					sprite.animation.addByPrefix('bop', 'Symbol 1', 24, false);
 					sprite.antialiasing = true;
 					sprite.scrollFactor.set(0.9, 0.9);
@@ -464,7 +470,7 @@ There's quite a bit of stuff here. I'll try to see if I can reduce it later.
 
 					for (i in 0...4)
 					{
-						var spotLight = new FlxSprite(-24, 24).loadGraphic(Paths.image('weekend/spot' + (i + 1), 'hex'));
+						var spotLight = new FlxSprite(-24, 24).loadGraphic(Paths.image('backgrounds/hex/weekend/spot' + (i + 1), 'hex'));
 						spotLight.antialiasing = true;
 						spotLight.scrollFactor.set(0.9, 0.9);
 						spotLight.setGraphicSize(Std.int(spotLight.width * 1.5));
@@ -485,23 +491,23 @@ There's quite a bit of stuff here. I'll try to see if I can reduce it later.
 						PlayState.coolingBF.alpha = 0;
 						PlayState.coolingGF.alpha = 0;
 
-						swagBacks['hexDarkBack'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('weekend/breakBack', 'hex'));
+						swagBacks['hexDarkBack'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('backgrounds/hex/weekend/breakBack', 'hex'));
 						swagBacks['hexDarkBack'].antialiasing = true;
 						swagBacks['hexDarkBack'].scrollFactor.set(0.9, 0.9);
 						swagBacks['hexDarkBack'].setGraphicSize(Std.int(swagBacks['hexDarkBack'].width * 1.5));
 
-						swagBacks['hexDarkFront'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('weekend/breakFront', 'hex'));
+						swagBacks['hexDarkFront'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('backgrounds/hex/weekend/breakFront', 'hex'));
 						swagBacks['hexDarkFront'].antialiasing = true;
 						swagBacks['hexDarkFront'].scrollFactor.set(0.9, 0.9);
 						swagBacks['hexDarkFront'].setGraphicSize(Std.int(swagBacks['hexDarkFront'].width * 1.5));
 
-						swagBacks['topDarkOverlay'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('weekend/breakOverlay', 'hex'));
+						swagBacks['topDarkOverlay'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('backgrounds/hex/weekend/breakOverlay', 'hex'));
 						swagBacks['topDarkOverlay'].antialiasing = true;
 						swagBacks['topDarkOverlay'].scrollFactor.set(0.9, 0.9);
 						swagBacks['topDarkOverlay'].setGraphicSize(Std.int(swagBacks['topDarkOverlay'].width * 1.5));
 
 						var dsprite:FlxSprite = new FlxSprite(42, -14);
-						dsprite.frames = Paths.getSparrowAtlas('weekend/crowd_dark', "hex");
+						dsprite.frames = Paths.getSparrowAtlas('backgrounds/hex/weekend/crowd_dark', "hex");
 						dsprite.animation.addByPrefix('bop', 'Symbol 1', 24, false);
 						dsprite.antialiasing = true;
 						dsprite.scrollFactor.set(0.9, 0.9);
@@ -519,7 +525,7 @@ There's quite a bit of stuff here. I'll try to see if I can reduce it later.
 
 						for (i in 0...2)
 						{
-							var spotLight = new FlxSprite(0, 0).loadGraphic(Paths.image('weekend/breakSpotlight', 'hex'));
+							var spotLight = new FlxSprite(0, 0).loadGraphic(Paths.image('backgrounds/hex/weekend/breakSpotlight', 'hex'));
 							spotLight.antialiasing = true;
 							spotLight.scrollFactor.set(0.9, 0.9);
 							spotLight.setGraphicSize(Std.int(spotLight.width * 1.5));
@@ -536,23 +542,23 @@ There's quite a bit of stuff here. I'll try to see if I can reduce it later.
 				{
 					camZoom = 0.9;
 					curStage = 'hexwd';
-					swagBacks['hexBack'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('weekend/detected/hexBack', 'hex'));
+					swagBacks['hexBack'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('backgrounds/hex/weekend/detected/hexBack', 'hex'));
 					swagBacks['hexBack'].antialiasing = true;
 					swagBacks['hexBack'].scrollFactor.set(0.9, 0.9);
 					swagBacks['hexBack'].setGraphicSize(Std.int(swagBacks['hexBack'].width * 1.5));
 
-					swagBacks['hexFront'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('weekend/detected/hexFront', 'hex'));
+					swagBacks['hexFront'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('backgrounds/hex/weekend/detected/hexFront', 'hex'));
 					swagBacks['hexFront'].antialiasing = true;
 					swagBacks['hexFront'].scrollFactor.set(0.9, 0.9);
 					swagBacks['hexFront'].setGraphicSize(Std.int(swagBacks['hexFront'].width * 1.5));
 
-					swagBacks['topOverlay'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('weekend/detected/topOverlay', 'hex'));
+					swagBacks['topOverlay'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('backgrounds/hex/weekend/detected/topOverlay', 'hex'));
 					swagBacks['topOverlay'].antialiasing = true;
 					swagBacks['topOverlay'].scrollFactor.set(0.9, 0.9);
 					swagBacks['topOverlay'].setGraphicSize(Std.int(swagBacks['topOverlay'].width * 1.5));
 
 					var sprite:FlxSprite = new FlxSprite(42, -14);
-					sprite.frames = Paths.getSparrowAtlas('weekend/detected/crowd', "hex");
+					sprite.frames = Paths.getSparrowAtlas('backgrounds/hex/weekend/detected/crowd', "hex");
 					sprite.animation.addByPrefix('bop', 'Symbol 1', 24, false);
 					sprite.antialiasing = true;
 					sprite.scrollFactor.set(0.9, 0.9);
@@ -570,23 +576,23 @@ There's quite a bit of stuff here. I'll try to see if I can reduce it later.
 
 					camZoom = 0.9;
 					curStage = 'hexwdg';
-					swagBacks['hexBack'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('weekend/detected/hexBack', 'hex'));
+					swagBacks['hexBack'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('backgrounds/hex/backgrounds/hex/weekend/detected/hexBack', 'hex'));
 					swagBacks['hexBack'].antialiasing = true;
 					swagBacks['hexBack'].scrollFactor.set(0.9, 0.9);
 					swagBacks['hexBack'].setGraphicSize(Std.int(swagBacks['hexBack'].width * 1.5));
 
-					swagBacks['hexFront'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('weekend/detected/hexFront', 'hex'));
+					swagBacks['hexFront'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('backgrounds/hex/weekend/detected/hexFront', 'hex'));
 					swagBacks['hexFront'].antialiasing = true;
 					swagBacks['hexFront'].scrollFactor.set(0.9, 0.9);
 					swagBacks['hexFront'].setGraphicSize(Std.int(swagBacks['hexFront'].width * 1.5));
 
-					swagBacks['topOverlay'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('weekend/detected/topOverlay', 'hex'));
+					swagBacks['topOverlay'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('backgrounds/hex/weekend/detected/topOverlay', 'hex'));
 					swagBacks['topOverlay'].antialiasing = true;
 					swagBacks['topOverlay'].scrollFactor.set(0.9, 0.9);
 					swagBacks['topOverlay'].setGraphicSize(Std.int(swagBacks['topOverlay'].width * 1.5));
 
 					var sprite:FlxSprite = new FlxSprite(42, -14);
-					sprite.frames = Paths.getSparrowAtlas('glitcher/remix/remixCrowd', "hex");
+					sprite.frames = Paths.getSparrowAtlas('backgrounds/hex/glitcher/remix/remixCrowd', "hex");
 					sprite.animation.addByPrefix('bop', 'Symbol 1', 24, false);
 					sprite.antialiasing = true;
 					sprite.scrollFactor.set(0.9, 0.9);
@@ -597,12 +603,12 @@ There's quite a bit of stuff here. I'll try to see if I can reduce it later.
 					toAdd.push(swagBacks['hexBack']);
 					toAdd.push(swagBacks['hexFront']);
 
-					swagBacks['hexrBack'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('glitcher/remix/au_wire_back', 'hex'));
+					swagBacks['hexrBack'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('backgrounds/hex/glitcher/remix/au_wire_back', 'hex'));
 					swagBacks['hexrBack'].antialiasing = true;
 					swagBacks['hexrBack'].scrollFactor.set(0.9, 0.9);
 					swagBacks['hexrBack'].setGraphicSize(Std.int(swagBacks['hexrBack'].width * 1.5));
 
-					swagBacks['hexrFront'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('glitcher/remix/au_wire_front', 'hex'));
+					swagBacks['hexrFront'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('backgrounds/hex/glitcher/remix/au_wire_front', 'hex'));
 					swagBacks['hexrFront'].antialiasing = true;
 					swagBacks['hexrFront'].scrollFactor.set(0.9, 0.9);
 					swagBacks['hexrFront'].setGraphicSize(Std.int(swagBacks['hexrFront'].width * 1.5));
@@ -633,38 +639,38 @@ There's quite a bit of stuff here. I'll try to see if I can reduce it later.
 					PlayState.lcdBF3.alpha = 0;
 					PlayState.lcdGF3.alpha = 0;
 
-					swagBacks['hexBack1'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('lcd/au_lcd_back_1', 'hex'));
+					swagBacks['hexBack1'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('backgrounds/hex/lcd/au_lcd_back_1', 'hex'));
 					swagBacks['hexBack1'].antialiasing = true;
 					swagBacks['hexBack1'].scrollFactor.set(0.9, 0.9);
 					swagBacks['hexBack1'].setGraphicSize(Std.int(swagBacks['hexBack1'].width * 1.5));
 
-					swagBacks['hexBack2'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('lcd/au_lcd_back_2', 'hex'));
+					swagBacks['hexBack2'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('backgrounds/hex/lcd/au_lcd_back_2', 'hex'));
 					swagBacks['hexBack2'].antialiasing = true;
 					swagBacks['hexBack2'].scrollFactor.set(0.9, 0.9);
 					swagBacks['hexBack2'].setGraphicSize(Std.int(swagBacks['hexBack2'].width * 1.5));
 
-					swagBacks['hexBack3'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('lcd/au_lcd_back_3', 'hex'));
+					swagBacks['hexBack3'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('backgrounds/hex/lcd/au_lcd_back_3', 'hex'));
 					swagBacks['hexBack3'].antialiasing = true;
 					swagBacks['hexBack3'].scrollFactor.set(0.9, 0.9);
 					swagBacks['hexBack3'].setGraphicSize(Std.int(swagBacks['hexBack3'].width * 1.5));
 
-					swagBacks['hexFront1'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('lcd/au_lcd_front_1', 'hex'));
+					swagBacks['hexFront1'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('backgrounds/hex/lcd/au_lcd_front_1', 'hex'));
 					swagBacks['hexFront1'].antialiasing = true;
 					swagBacks['hexFront1'].scrollFactor.set(0.9, 0.9);
 					swagBacks['hexFront1'].setGraphicSize(Std.int(swagBacks['hexFront1'].width * 1.5));
 
-					swagBacks['hexFront2'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('lcd/au_lcd_front_2', 'hex'));
+					swagBacks['hexFront2'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('backgrounds/hex/lcd/au_lcd_front_2', 'hex'));
 					swagBacks['hexFront2'].antialiasing = true;
 					swagBacks['hexFront2'].scrollFactor.set(0.9, 0.9);
 					swagBacks['hexFront2'].setGraphicSize(Std.int(swagBacks['hexFront2'].width * 1.5));
 
-					swagBacks['hexFront3'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('lcd/au_lcd_front_3', 'hex'));
+					swagBacks['hexFront3'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('backgrounds/hex/lcd/au_lcd_front_3', 'hex'));
 					swagBacks['hexFront3'].antialiasing = true;
 					swagBacks['hexFront3'].scrollFactor.set(0.9, 0.9);
 					swagBacks['hexFront3'].setGraphicSize(Std.int(swagBacks['hexFront3'].width * 1.5));
 
 					var light1:FlxSprite = new FlxSprite(42, 44);
-					light1.frames = Paths.getSparrowAtlas('lcd/au_lcd_lights_1', "hex");
+					light1.frames = Paths.getSparrowAtlas('backgrounds/hex/lcd/au_lcd_lights_1', "hex");
 					light1.animation.addByPrefix('bop', 'Symbol 1', 24, false);
 					light1.antialiasing = true;
 					light1.scrollFactor.set(0.9, 0.9);
@@ -673,7 +679,7 @@ There's quite a bit of stuff here. I'll try to see if I can reduce it later.
 					swagBacks['lights1'] = light1;
 
 					var light2:FlxSprite = new FlxSprite(42, 44);
-					light2.frames = Paths.getSparrowAtlas('lcd/au_lcd_lights_2', "hex");
+					light2.frames = Paths.getSparrowAtlas('backgrounds/hex/lcd/au_lcd_lights_2', "hex");
 					light2.animation.addByPrefix('bop', 'Symbol 1', 24, false);
 					light2.antialiasing = true;
 					light2.scrollFactor.set(0.9, 0.9);
@@ -682,7 +688,7 @@ There's quite a bit of stuff here. I'll try to see if I can reduce it later.
 					swagBacks['lights2'] = light2;
 
 					var light3:FlxSprite = new FlxSprite(42, 44);
-					light3.frames = Paths.getSparrowAtlas('lcd/au_lcd_lights_3', "hex");
+					light3.frames = Paths.getSparrowAtlas('backgrounds/hex/lcd/au_lcd_lights_3', "hex");
 					light3.animation.addByPrefix('bop', 'Symbol 1', 24, false);
 					light3.antialiasing = true;
 					light3.scrollFactor.set(0.9, 0.9);
@@ -691,7 +697,7 @@ There's quite a bit of stuff here. I'll try to see if I can reduce it later.
 					swagBacks['lights3'] = light3;
 
 					var sprite:FlxSprite = new FlxSprite(42, -14);
-					sprite.frames = Paths.getSparrowAtlas('lcd/au_lcd_audience_1', "hex");
+					sprite.frames = Paths.getSparrowAtlas('backgrounds/hex/lcd/au_lcd_audience_1', "hex");
 					sprite.animation.addByPrefix('bop', 'Symbol 1', 24, false);
 					sprite.antialiasing = true;
 					sprite.scrollFactor.set(0.9, 0.9);
@@ -700,7 +706,7 @@ There's quite a bit of stuff here. I'll try to see if I can reduce it later.
 					swagBacks['crowd1'] = sprite;
 
 					var sprite2:FlxSprite = new FlxSprite(42, -14);
-					sprite2.frames = Paths.getSparrowAtlas('lcd/au_lcd_audience_2', "hex");
+					sprite2.frames = Paths.getSparrowAtlas('backgrounds/hex/lcd/au_lcd_audience_2', "hex");
 					sprite2.animation.addByPrefix('bop', 'Symbol 1', 24, false);
 					sprite2.antialiasing = true;
 					sprite2.scrollFactor.set(0.9, 0.9);
@@ -709,7 +715,7 @@ There's quite a bit of stuff here. I'll try to see if I can reduce it later.
 					swagBacks['crowd2'] = sprite2;
 
 					var sprite3:FlxSprite = new FlxSprite(42, -14);
-					sprite3.frames = Paths.getSparrowAtlas('lcd/au_lcd_audience_3', "hex");
+					sprite3.frames = Paths.getSparrowAtlas('backgrounds/hex/lcd/au_lcd_audience_3', "hex");
 					sprite3.animation.addByPrefix('bop', 'Symbol 1', 24, false);
 					sprite3.antialiasing = true;
 					sprite3.scrollFactor.set(0.9, 0.9);
