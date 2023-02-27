@@ -2,7 +2,7 @@
 Built off of an open-source, modular, optimized, and HOPEFULLY easy to use [Friday Night Funkin'](https://www.newgrounds.com/portal/view/770371) mod engine!
 ----------------------------------------------
 
-![image](https://media.discordapp.net/attachments/916918345255751690/930068118938730526/legacy.png)
+![image](https://media.discordapp.net/attachments/1002371267082584136/1079868774473281717/image.png?width=459&height=235)
 
 Info
 ----------------------------------------------
@@ -11,7 +11,7 @@ This is a collection of fanmade remasters (in the form of re-sprites, and in the
 **FOREVER ENGINE IS ONLY MEANT TO BE USED ON DESKTOP! BIG L MOMENTO!**
 
 ----------------------------------------------
-Forever Engine FEATURES! - 
+Forever Engine's FEATURES! - 
 
 Noteskins,
 Custom UIs,
@@ -34,6 +34,7 @@ I don't care how big this section gets over time, as long as it is manageable.
 - FlimFlam Fanmaster
 - Mega CD Locked On! and V.S. CD Fanmasters (Medium to low priority.)
 - VS Mario (the one with the Peach over GF skin.)
+- Stev Hervy (maybe)
 
 ----------------------------------------------
 
