@@ -4,9 +4,9 @@ Built off of an open-source, modular, optimized, and HOPEFULLY easy to use [Frid
 
 ![image](https://media.discordapp.net/attachments/916918345255751690/930068118938730526/legacy.png)
 
-Forever Engine is an open source modification of the Friday Night Funkin' engine. Forever Engine is not to be confused with its original name, FUNKIN FOREVER, which is now no longer the name of the engine. The reason this is important will have to do with future plans of ours, so stay tuned if you'd like to hear more about those ;)
+Info
 ----------------------------------------------
-The Forever Engine is based off of the aforementioned [Friday Night Funkin' Source](https://github.com/FunkinCrew/Funkin). It's made to be more accessible and easier to build off of, as well as having a lot of quality of life changes and a much more focused direction on the more traditional feel of rhythm games, all while still keeping the same style and feel of Friday Night Funkin'. I know a lot of source codes are hard to work with for friday night funkin', usually very unoptimised or very unorganised, I wanted to fix both of these issues with Forever Engine and Funkin' Forever in the future. True to the spirit of [Newgrounds](https://www.newgrounds.com), Friday Night Funkin' should be accessible by everyone, both modders and gamers alike, and I wanted to make it my goal to fix a lot of the issues that prevented people from being able to use the base game's engine, as well as create a more polished engines, as I was unhappy with the current existing ones at the time.
+This is a collection of fanmade remasters (in the form of re-sprites, and in the rare instances, code and music) that I've made, but put on Forever Engine. That doesn't mean the fanmasters are better than the originals however, this is only a tribute to Friday Night Funkin' and its modding community, a small project of mine that I hope people can find enjoyment and use out of!
 
 **FOREVER ENGINE IS ONLY MEANT TO BE USED ON DESKTOP! BIG L MOMENTO!**
 
@@ -22,16 +22,14 @@ Source Code folder abstraction
 More streamlined code (only having to set things in one place)
 AND MORE!
 
-This is a collection of fanmade remasters (in the form of re-sprites, and in the rare instances, code and music) that I have made, but put on Forever Engine. That doesn't mean the fanmasters are better than the originals however, this is only a tribute to Friday Night Funkin' and its modding community, a small project of mine that I hope people can find enjoyment and use out of!
-
 ----------------------------------------------
 To do:
 ----------------------------------------------
 I don't care how big this section gets over time, as long as it is manageable.
 
 -Hex Fanmaster
--Jukua Fanmaster (Low Priority)
--SNS Fanmaster
+-Jukua Fanmaster (Low Priority.)
+-SNS Fanmaster (Low priority.)
 -Whitty Fanmaster (High priority.)
 -FlimFlam Fanmaster
 -HELLO BOY WHAT ARE YOU DOING HERE Fanmaster
