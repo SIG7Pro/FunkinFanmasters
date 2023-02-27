@@ -25,6 +25,16 @@ AND MORE!
 This is a collection of fanmade remasters (in the form of re-sprites, and in the rare instances, code and music) that I have made, but put on Forever Engine. That doesn't mean the fanmasters are better than the originals however, this is only a tribute to Friday Night Funkin' and its modding community, a small project of mine that I hope people can find enjoyment and use out of!
 
 ----------------------------------------------
+To do:
+----------------------------------------------
+I don't care how big this section gets over time, as long as it is manageable.
+
+-Hex Fanmaster
+-Jukua Fanmaster (Low Priority)
+-SNS Fanmaster
+-Whitty Fanmaster (High priority.)
+
+----------------------------------------------
 
 ADDITIONS IN FE 0.2.3
 
