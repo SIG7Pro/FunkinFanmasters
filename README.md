@@ -27,13 +27,13 @@ To do:
 ----------------------------------------------
 I don't care how big this section gets over time, as long as it is manageable.
 
--Hex Fanmaster
--Jukua Fanmaster (Low Priority.)
--SNS Fanmaster (Low priority.)
--Whitty Fanmaster (High priority.)
--FlimFlam Fanmaster
--HELLO BOY WHAT ARE YOU DOING HERE Fanmaster
--VS Mario (the one with the Peach over GF skin.)
+- Hex Fanmaster
+- Jukua Fanmaster (Low Priority.)
+- SNS Fanmaster (Low priority.)
+- Whitty Fanmaster (High priority.)
+- FlimFlam Fanmaster
+- Mega CD Locked On! and V.S. CD Fanmasters (Medium to low priority.)
+- VS Mario (the one with the Peach over GF skin.)
 
 ----------------------------------------------
 
