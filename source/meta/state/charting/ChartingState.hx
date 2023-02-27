@@ -1,4 +1,5 @@
-/**package meta.state.charting;
+/**
+package meta.state.charting;
 
 import flixel.FlxBasic;
 import flixel.FlxCamera;
@@ -559,4 +560,4 @@ class ChartingState extends MusicBeatState
 
 	// 
 }
-/**
+**/
