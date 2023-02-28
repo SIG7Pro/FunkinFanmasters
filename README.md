@@ -13,16 +13,19 @@ This is a collection of fanmade remasters (in the form of re-sprites, and in the
 To do:
 ----------------------------------------------
 I don't care how big this section gets over time, as long as it is manageable.
-
-- Hex Fanmaster
-- Jukua Fanmaster (Low Priority.)
+Remasters:
+- Hex Fanmaster [Being worked on]
+- Jukua Fanmaster (V.S. July, Low Priority.)
 - SNS Fanmaster (Low priority.)
 - Whitty Fanmaster (High priority.)
 - FlimFlam Fanmaster
 - Mega CD Locked On! and V.S. CD Fanmasters (Medium to low priority.)
 - VS Mario (the one with the Peach over GF skin.)
 - Stev Hervy (maybe)
-
+Code:
+- Backgrounds
+- Minor Engine Changes
+- Proper macOS build.
 ----------------------------------------------
 
 ADDITIONS IN FE 0.2.3
