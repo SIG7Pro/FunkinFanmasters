@@ -57,6 +57,11 @@ class ClassHUD extends FlxTypedGroup<FlxBasic>
 		var barY = FlxG.height * 0.875;
 		if (Init.trueSettings.get('Downscroll'))
 			barY = 64;
+		
+		
+		
+		
+		
 
 		healthBarBG = new FlxSprite(0,
 			barY).loadGraphic(Paths.image(ForeverTools.returnSkinAsset('healthBar', PlayState.assetModifier, PlayState.changeableSkin, 'UI')));
@@ -67,10 +72,20 @@ class ClassHUD extends FlxTypedGroup<FlxBasic>
 		healthBar = new FlxBar(healthBarBG.x + 4, healthBarBG.y + 4, RIGHT_TO_LEFT, Std.int(healthBarBG.width - 8), Std.int(healthBarBG.height - 8));
 		healthBar.scrollFactor.set();
 		//colers
-		
-		healthBar.createFilledBar(0xFFFF0000, 0xFF66FF33);
+		switch (SONG.song.toLowerCase())
+		case 'test':
+		healthBar.createFilledBar(0xFF00FF00, 0xFF00FF00);
+		// old healthBar.createFilledBar(0xFFFF0000, 0xFF66FF33);
+		default:
+		healthBar.createFilledBar(0xFFFF0000, 0xFF00FF00);
+		}
 		// healthBar
 		add(healthBar);
+				
+				
+				
+				
+				
 
 		iconP1 = new HealthIcon(SONG.player1, true);
 		iconP1.y = healthBar.y - (iconP1.height / 2);
@@ -148,9 +163,7 @@ class ClassHUD extends FlxTypedGroup<FlxBasic>
 
 		iconP1.x = healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 0, 100, 100, 0) * 0.01) - iconOffset);
 		iconP2.x = healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 0, 100, 100, 0) * 0.01)) - (iconP2.width - iconOffset);
-				switch (SONG.song.toLowerCase())
-		
-		}
+
 
 		if (healthBar.percent < 20)
 			iconP1.animation.curAnim.curFrame = 1;
