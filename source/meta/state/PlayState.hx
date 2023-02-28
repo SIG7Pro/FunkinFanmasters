@@ -201,6 +201,7 @@ class PlayState extends MusicBeatState
 		/// here we determine the chart type!
 		// determine the chart type here
 		determinedChartType = "FNF"; //What is the point of this, like seriously?? Did they want to add Arrow Vortex chart support? -Kirby
+		//Shut up, Kirby. -Ivan
 
 		//
 
@@ -253,7 +254,7 @@ class PlayState extends MusicBeatState
 
 		// add limo cus dumb layering
 		if (curStage == 'highway')
-			add(stageBuild.limo); //WHY IS THIS HERE OF ALL PLACES?? -Kirb
+			add(stageBuild.limo);
 
 		add(dadOpponent);
 		add(boyfriend);
@@ -565,9 +566,9 @@ class PlayState extends MusicBeatState
 				{
 					resetMusic();
 					if (Init.trueSettings.get('Use Forever Chart Editor'))
-						Main.switchState(this, new ChartingState());
+						//Sorry not sorry.
 					else
-						Main.switchState(this, new OriginalChartingState());
+						//Silly Forever Engine fork.
 				}
 
 				if ((FlxG.keys.justPressed.SIX))
@@ -1583,6 +1584,39 @@ class PlayState extends MusicBeatState
 
 	private function songEndSpecificActions()
 	{
+		
+		
+		//
+		//
+		//
+		//
+		//
+		//
+		//
+		//
+		//
+		//
+			// hi guys saster here
+		//
+		//
+		//
+		//
+		//
+		//
+		//
+		///
+		//
+		//
+		//
+		///
+		//
+		///
+		//
+		//
+		//
+		//
+		//
+		
 		switch (SONG.song.toLowerCase())
 		{
 			case 'eggnog':
@@ -1857,3 +1891,6 @@ class PlayState extends MusicBeatState
 		return super.add(Object);
 	}
 }
+
+	
+	//I hate coding.
