@@ -1,3 +1,12 @@
+function update() {
+    whee();
+}
+
+function whee() {
+//
+FlxG.switchState(new meta.state.PlayState());
+}
+
 /**
 package meta.state.charting;
 
