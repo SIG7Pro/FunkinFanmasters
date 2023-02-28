@@ -46,6 +46,7 @@ class ClassHUD extends FlxTypedGroup<FlxBasic>
 	// eep
 	public function new()
 	{
+		//This UI is so much more organized than I inticipated, what the heck.
 		// call the initializations and stuffs
 		super();
 
@@ -131,7 +132,7 @@ class ClassHUD extends FlxTypedGroup<FlxBasic>
 
 	override public function update(elapsed:Float)
 	{
-		// pain, this is like the 7th attempt
+		// Health bars are cool.
 		healthBar.percent = (PlayState.health * 50);
 
 		var iconLerp = 0.5;
@@ -148,16 +149,20 @@ class ClassHUD extends FlxTypedGroup<FlxBasic>
 
 		if (healthBar.percent < 20)
 			iconP1.animation.curAnim.curFrame = 1;
+		//attempt at seeing if I can do winning icons, I have no idea what I'm doing
+			iconP2.animation.curAnim.curFrame = 3;
 		else
 			iconP1.animation.curAnim.curFrame = 0;
 
 		if (healthBar.percent > 80)
 			iconP2.animation.curAnim.curFrame = 1;
+			//same attempt at seeing if I can do winning icons, I still have no idea what I'm doing
+			iconP1.animation.curAnim.curFrame = 3;
 		else
 			iconP2.animation.curAnim.curFrame = 0;
 	}
 
-	private final divider:String = ' - ';
+	private final divider:String = ' -|- ';
 
 	public function updateScoreText()
 	{
@@ -169,9 +174,9 @@ class ClassHUD extends FlxTypedGroup<FlxBasic>
 		var displayAccuracy:Bool = Init.trueSettings.get('Display Accuracy');
 		if (displayAccuracy)
 		{
-			scoreBar.text += divider + 'Accuracy: ' + Std.string(Math.floor(Timings.getAccuracy() * 100) / 100) + '%' + Timings.comboDisplay;
-			scoreBar.text += divider + 'Combo Breaks: ' + Std.string(PlayState.misses);
-			scoreBar.text += divider + 'Rank: ' + Std.string(Timings.returnScoreRating().toUpperCase());
+			scoreBar.text += divider + 'Acc: ' + Std.string(Math.floor(Timings.getAccuracy() * 100) / 100) + '%' + Timings.comboDisplay;
+			scoreBar.text += divider + 'Mess Ups: ' + Std.string(PlayState.misses);
+			scoreBar.text += divider + 'Grade: ' + Std.string(Timings.returnScoreRating().toUpperCase());
 		}
 
 		scoreBar.x = ((FlxG.width / 2) - (scoreBar.width / 2));
