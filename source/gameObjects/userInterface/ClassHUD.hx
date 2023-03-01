@@ -184,8 +184,9 @@ class ClassHUD extends FlxTypedGroup<FlxBasic>
 		if (healthBar.percent < 20)
 	{
 			iconP1.animation.curAnim.curFrame = 1;
+		        iconP2.animation.curAnim.curFrame = 3;
 		//attempt at seeing if I can do winning icons, I have no idea what I'm doing
-			iconP2.animation.curAnim.curFrame = 3; }
+        }
 	 else
 			iconP1.animation.curAnim.curFrame = 0;
 			iconP2.animation.curAnim.curFrame = 0;
