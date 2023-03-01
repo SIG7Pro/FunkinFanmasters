@@ -4,7 +4,7 @@
 
 //function whee() {
 //
-FlxG.switchState(new meta.state.PlayState());
+//FlxG.switchState(new meta.state.PlayState());
 //}
 
 /**

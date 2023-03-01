@@ -85,7 +85,7 @@ class TitleState extends MusicBeatState
 		
 		
 		// real background
-		realbg = new FlxSprite(-85);
+		var realbg:FlxSprite = new FlxSprite(-85);
 		realbg.loadGraphic(Paths.image('menus/base/menuBGDark'));
 		realbg.scrollFactor.x = 0;
 		realbg.scrollFactor.y = 0.18;

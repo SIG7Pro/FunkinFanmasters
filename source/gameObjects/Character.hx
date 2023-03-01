@@ -444,11 +444,12 @@ class Character extends FNFSprite
 				animation.addByPrefix('singDOWN', 'Dad Sing Note DOWN', 24, false);
 				animation.addByPrefix('singLEFT', 'Dad Sing Note LEFT', 24, false);
 
-				loadOffsetFile("hex");
+				//loadOffsetFile("hex");
 
 				playAnim('idle');
+				//add these back later - alex
 
-				barColor = FlxColor.fromRGB(76, 255, 244);
+				//barColor = FlxColor.fromRGB(76, 255, 244);
 			case 'hex-ss':
 				tex = Paths.getSparrowAtlas('characters/sunsethex');
 				frames = tex;
@@ -458,11 +459,11 @@ class Character extends FNFSprite
 				animation.addByPrefix('singDOWN', 'Dad Sing Note DOWN', 24, false);
 				animation.addByPrefix('singLEFT', 'Dad Sing Note LEFT', 24, false);
 
-				loadOffsetFile("hex");
+				//loadOffsetFile("hex");
 
 				playAnim('idle');
 
-				barColor = FlxColor.fromRGB(76, 255, 244);
+				//barColor = FlxColor.fromRGB(76, 255, 244);
 			case 'hex-n':
 				tex = Paths.getSparrowAtlas('characters/nighthex');
 				frames = tex;
@@ -472,11 +473,11 @@ class Character extends FNFSprite
 				animation.addByPrefix('singDOWN', 'Dad Sing Note DOWN', 24, false);
 				animation.addByPrefix('singLEFT', 'Dad Sing Note LEFT', 24, false);
 
-				loadOffsetFile("hex");
+				//loadOffsetFile("hex");
 
 				playAnim('idle');
 
-				barColor = FlxColor.fromRGB(76, 255, 244);
+				//barColor = FlxColor.fromRGB(76, 255, 244);
 
 			case "hex-w":
 				tex = Paths.getSparrowAtlas('characters/hex-w');
@@ -487,11 +488,11 @@ class Character extends FNFSprite
 				animation.addByPrefix('singDOWN', 'Dad Sing Note DOWN', 24, false);
 				animation.addByPrefix('singLEFT', 'Dad Sing Note LEFT', 24, false);
 
-				loadOffsetFile("hex");
+				//loadOffsetFile("hex");
 
 				playAnim('idle');
 
-				barColor = FlxColor.fromRGB(76, 255, 244);
+				//barColor = FlxColor.fromRGB(76, 255, 244);
 			case "lcdHEX1":
 				tex = Paths.getSparrowAtlas('characters/lcdHEX1');
 				frames = tex;
@@ -501,11 +502,11 @@ class Character extends FNFSprite
 				animation.addByPrefix('singDOWN', 'Dad Sing Note DOWN', 24, false);
 				animation.addByPrefix('singLEFT', 'Dad Sing Note LEFT', 24, false);
 
-				loadOffsetFile("hex");
+				//loadOffsetFile("hex");
 
 				playAnim('idle');
 
-				barColor = FlxColor.fromRGB(76, 255, 244);
+				//barColor = FlxColor.fromRGB(76, 255, 244);
 			case "lcdHEX2":
 				tex = Paths.getSparrowAtlas('characters/lcdHEX2');
 				frames = tex;
@@ -515,11 +516,11 @@ class Character extends FNFSprite
 				animation.addByPrefix('singDOWN', 'Dad Sing Note DOWN', 24, false);
 				animation.addByPrefix('singLEFT', 'Dad Sing Note LEFT', 24, false);
 
-				loadOffsetFile("hex");
+				//loadOffsetFile("hex");
 
 				playAnim('idle');
 
-				barColor = FlxColor.fromRGB(76, 255, 244);
+				//barColor = FlxColor.fromRGB(76, 255, 244);
 			case "lcdHEX3":
 				tex = Paths.getSparrowAtlas('characters/lcdHEX3');
 				frames = tex;
@@ -529,11 +530,11 @@ class Character extends FNFSprite
 				animation.addByPrefix('singDOWN', 'Dad Sing Note DOWN', 24, false);
 				animation.addByPrefix('singLEFT', 'Dad Sing Note LEFT', 24, false);
 
-				loadOffsetFile("hex");
+				//loadOffsetFile("hex");
 
 				playAnim('idle');
 
-				barColor = FlxColor.fromRGB(76, 255, 244);
+				//barColor = FlxColor.fromRGB(76, 255, 244);
 
 			case "hex-wc":
 				tex = Paths.getSparrowAtlas('characters/hex-wc');
@@ -544,11 +545,11 @@ class Character extends FNFSprite
 				animation.addByPrefix('singDOWN', 'Dad Sing Note DOWN', 24, false);
 				animation.addByPrefix('singLEFT', 'Dad Sing Note LEFT', 24, false);
 
-				loadOffsetFile("hex");
+				//loadOffsetFile("hex");
 
 				playAnim('idle');
 
-				barColor = FlxColor.fromRGB(76, 255, 244);
+				//barColor = FlxColor.fromRGB(76, 255, 244);
 
 			case 'hex-g':
 				tex = Paths.getSparrowAtlas('characters/glitcherhex-virus', 'shared');
@@ -559,11 +560,11 @@ class Character extends FNFSprite
 				animation.addByPrefix('singDOWN', 'Hex crazy down', 24, false);
 				animation.addByPrefix('singLEFT', 'Hex crazy left', 24, false);
 
-				loadOffsetFile("hex-g");
+				//loadOffsetFile("hex-g");
 
 				playAnim('idle');
 
-				barColor = FlxColor.fromRGB(255, 23, 23);
+				//barColor = FlxColor.fromRGB(255, 23, 23);
 			case 'hex-g-bruh':
 				tex = Paths.getSparrowAtlas('characters/hex_superCrazy');
 				frames = tex;
@@ -573,11 +574,11 @@ class Character extends FNFSprite
 				animation.addByPrefix('singDOWN', 'jefheziuoghz instance 1', 24, false);
 				animation.addByPrefix('singLEFT', 'LEFT instance 1', 24, false);
 
-				loadOffsetFile("hex-g-bruh");
+				//loadOffsetFile("hex-g-bruh");
 
 				playAnim('idle');
 
-				barColor = FlxColor.fromRGB(255, 23, 23);
+				//barColor = FlxColor.fromRGB(255, 23, 23);
 			case 'rmxHex':
 				tex = Paths.getSparrowAtlas('characters/rmxHex');
 				frames = tex;
@@ -587,11 +588,11 @@ class Character extends FNFSprite
 				animation.addByPrefix('singDOWN', 'jefheziuoghz instance 1', 24, false);
 				animation.addByPrefix('singLEFT', 'LEFT instance 1', 24, false);
 
-				loadOffsetFile("hex-g-bruh");
+				//loadOffsetFile("hex-g-bruh");
 
 				playAnim('idle');
 
-				barColor = FlxColor.fromRGB(255, 23, 23);
+				//barColor = FlxColor.fromRGB(255, 23, 23);
 
 			case 'hex-wire':
 				tex = Paths.getSparrowAtlas('characters/wirehex-virus');
@@ -602,11 +603,11 @@ class Character extends FNFSprite
 				animation.addByPrefix('singDOWN', 'Hex crazy down', 24, false);
 				animation.addByPrefix('singLEFT', 'Hex crazy left', 24, false);
 
-				loadOffsetFile("hex-g");
+				//loadOffsetFile("hex-g");
 
 				playAnim('idle');
 
-				barColor = FlxColor.fromRGB(255, 23, 23);
+				//barColor = FlxColor.fromRGB(255, 23, 23);
 
 //HEX CHARACTER CODE ENDS
 //BF HEX MODE ON
