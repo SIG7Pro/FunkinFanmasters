@@ -342,9 +342,9 @@ class Stage extends FlxTypedGroup<FlxBasic>
 	Hex Stage Code Starts Here, copied from V.S. Hex: The Weekend Update (v2)
 There's quite a bit of stuff here. I'll try to see if I can reduce it later.
 
+It doesn't quite work. I'll use the default stage code as a base for now.
 
 
-**/
 			case 'hex':
 				{
 					camZoom = 0.9;
@@ -729,10 +729,6 @@ There's quite a bit of stuff here. I'll try to see if I can reduce it later.
 					toAdd.push(swagBacks['lights1']);
 					toAdd.push(swagBacks['lights2']);
 					toAdd.push(swagBacks['lights3']);
-					
-/**
-
-
 
 	Hex Stage Code ENDS Here. Reminder that I copied this code from V.S. Hex: The Weekend Update (v2)
 
@@ -769,6 +765,29 @@ There's quite a bit of stuff here. I'll try to see if I can reduce it later.
 
 				// add to the final array
 				add(stageCurtains);
+		}
+	//Remaking bsktbl-court code.
+		}
+			hex:
+				PlayState.defaultCamZoom = 0.9;
+				curStage = 'stage';
+				var bg:FNFSprite = new FNFSprite(-600, -200).loadGraphic(Paths.image('backgrounds/' + curStage + '/stageback'));
+				bg.antialiasing = true;
+				bg.scrollFactor.set(0.9, 0.9);
+				bg.active = false;
+
+				// add to the final array
+				add(bg);
+
+				var stageFront:FNFSprite = new FNFSprite(-650, 600).loadGraphic(Paths.image('backgrounds/' + curStage + '/stagefront'));
+				stageFront.setGraphicSize(Std.int(stageFront.width * 1.1));
+				stageFront.updateHitbox();
+				stageFront.antialiasing = true;
+				stageFront.scrollFactor.set(0.9, 0.9);
+				stageFront.active = false;
+
+				// add to the final array
+				add(stageFront);
 		}
 	}
 
