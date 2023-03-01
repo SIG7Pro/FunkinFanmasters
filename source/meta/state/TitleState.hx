@@ -82,6 +82,18 @@ class TitleState extends MusicBeatState
 		// bg.setGraphicSize(Std.int(bg.width * 0.6));
 		// bg.updateHitbox();
 		add(bg);
+		
+		
+		// real background
+		realbg = new FlxSprite(-85);
+		realbg.loadGraphic(Paths.image('menus/base/menuBGDark'));
+		realbg.scrollFactor.x = 0;
+		realbg.scrollFactor.y = 0.18;
+		realbg.setGraphicSize(Std.int(bg.width * 1.1));
+		realbg.updateHitbox();
+		realbg.screenCenter();
+		realbg.antialiasing = true;
+		add(realbg);
 
 		logoBl = new FlxSprite(-150, -100);
 		logoBl.frames = Paths.getSparrowAtlas('menus/base/title/logoBumpin');
