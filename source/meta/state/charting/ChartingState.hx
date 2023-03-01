@@ -1,11 +1,11 @@
-function update() {
-    whee();
-}
+//function update() {
+    //whee();
+//}
 
-function whee() {
+//function whee() {
 //
 FlxG.switchState(new meta.state.PlayState());
-}
+//}
 
 /**
 package meta.state.charting;
