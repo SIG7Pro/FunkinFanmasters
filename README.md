@@ -25,7 +25,7 @@ Remasters:
 Code:
 - Backgrounds
 - Minor Engine Changes
-- Proper macOS build.
+- **Proper macOS build, like ASAP** [Being worked on.]
 ----------------------------------------------
 
 ADDITIONS IN FE 0.2.3
@@ -39,22 +39,19 @@ ADDITIONS IN FE 0.2.3
 -----------------------------------------------
 Forever Engine's FEATURES! - 
 
-Noteskins,
-Custom UIs,
-Options Menu with FPS Capping and adjustments
-A lot of modularity and freedom with options (hopefully in the future EVERYTHING will be toggleable)
-A restructure and partial remake of the base game's source code
-Source Code folder abstraction
-More streamlined code (only having to set things in one place)
-AND MORE!
+Giving me trouble compiling.
 
+----------------------------------------------
+ORIGINAL FUNKIN' FANMASTER CREDITS:
+----------------------------------------------
+[SIG7](https://resite.link/SIG7) - Main dude.
 
 ----------------------------------------------
 ORIGINAL FOREVER ENGINE CREDITS:
 ----------------------------------------------
 I don't care how big this section gets over time, I will actually keep expanding it. People deserve credit for what they do!
 
-[Yoshubs](https://github.com/Yoshubs) - made the engine. she just so happens to be very fucking stupid for accidentally pushing the martian mixtape source code into forever engine's base github page
+Yoshubs - made the engine. she just so happens to be very fucking stupid for accidentally pushing the martian mixtape source code into forever engine's base github page
 
 [Pixloen](https://github.com/PixlJacket) - made a lot of the custom assets that forever engine uses, he also gave the original FE Dev a lot of general advice on how to improve the engine as well as his input on both how to improve upon the base game and how the input system felt and such. ALSO PROGRAMMED SIMPLY JUDGEMENTS AND BACKGROUND DARKEN, He basically co-owned the original engine.
 
