@@ -335,12 +335,31 @@ class Stage extends FlxTypedGroup<FlxBasic>
 				bg.scrollFactor.set(0.8, 0.9);
 				bg.scale.set(6, 6);
 				add(bg);
-
+				}
 //	Hex Stage Code would've started here, but I had to delete all the code.
 //It didn't quite work. I'll use the default stage code as a base for now.
-//	Hex Stage Code would've ended here, but I had to delete all the code.
+//	Hex Stage Code would've ended here, but I had to delete all the code, so I redid it..
+			case 'hex':
+				PlayState.defaultCamZoom = 0.9;
+				curStage = 'stage';
+				var bg:FNFSprite = new FNFSprite(-600, -200).loadGraphic(Paths.image('backgrounds/' + curStage + '/stageback'));
+				bg.antialiasing = true;
+				bg.scrollFactor.set(0.9, 0.9);
+				bg.active = false;
 
-				}
+				// add to the final array
+				add(bg);
+
+				var stageFront:FNFSprite = new FNFSprite(-650, 600).loadGraphic(Paths.image('backgrounds/' + curStage + '/stagefront'));
+				stageFront.setGraphicSize(Std.int(stageFront.width * 1.1));
+				stageFront.updateHitbox();
+				stageFront.antialiasing = true;
+				stageFront.scrollFactor.set(0.9, 0.9);
+				stageFront.active = false;
+
+				// add to the final array
+				add(stageFront);
+		}
 			default:
 				PlayState.defaultCamZoom = 0.9;
 				curStage = 'stage';
@@ -371,29 +390,6 @@ class Stage extends FlxTypedGroup<FlxBasic>
 
 				// add to the final array
 				add(stageCurtains);
-		}
-	//Remaking bsktbl-court code.
-		}
-			hex:
-				PlayState.defaultCamZoom = 0.9;
-				curStage = 'stage';
-				var bg:FNFSprite = new FNFSprite(-600, -200).loadGraphic(Paths.image('backgrounds/' + curStage + '/stageback'));
-				bg.antialiasing = true;
-				bg.scrollFactor.set(0.9, 0.9);
-				bg.active = false;
-
-				// add to the final array
-				add(bg);
-
-				var stageFront:FNFSprite = new FNFSprite(-650, 600).loadGraphic(Paths.image('backgrounds/' + curStage + '/stagefront'));
-				stageFront.setGraphicSize(Std.int(stageFront.width * 1.1));
-				stageFront.updateHitbox();
-				stageFront.antialiasing = true;
-				stageFront.scrollFactor.set(0.9, 0.9);
-				stageFront.active = false;
-
-				// add to the final array
-				add(stageFront);
 		}
 	}
 
