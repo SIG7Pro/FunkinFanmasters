@@ -434,7 +434,7 @@ There's quite a bit of stuff here. I'll try to see if I can reduce it later.
 				{
 					camZoom = 0.9;
 					curStage = 'hexw';
-					if (PlayState.SONG.songId.toLowerCase() == "cooling")
+					if (meta.state.PlayState.SONG.songId.toLowerCase() == "cooling")
 						swagBacks['hexBack'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('backgrounds/hex/weekend/hexBack', 'hex'));
 					else
 						swagBacks['hexBack'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('backgrounds/hex/weekend/hexBack_noVis', 'hex'));
@@ -481,15 +481,15 @@ There's quite a bit of stuff here. I'll try to see if I can reduce it later.
 						swagBacks['spot' + i] = spotLight;
 						layInFront[0].push(swagBacks['spot' + i]);
 					}
-					if (PlayState.SONG.songId.toLowerCase() == "cooling")
+					if (meta.state.PlayState.SONG.songId.toLowerCase() == "cooling")
 					{
-						PlayState.coolingDad = new Character(69, -58, 'hex-wc');
-						PlayState.coolingBF = new Boyfriend(753, 258, 'bf-wc');
-						PlayState.coolingGF = new Boyfriend(248, -33, 'gf-wc');
+						meta.state.PlayState.coolingDad = new Character(69, -58, 'hex-wc');
+						meta.state.PlayState.coolingBF = new Boyfriend(753, 258, 'bf-wc');
+						meta.state.PlayState.coolingGF = new Boyfriend(248, -33, 'gf-wc');
 
-						PlayState.coolingDad.alpha = 0;
-						PlayState.coolingBF.alpha = 0;
-						PlayState.coolingGF.alpha = 0;
+						meta.state.PlayState.coolingDad.alpha = 0;
+						meta.state.PlayState.coolingBF.alpha = 0;
+						meta.state.PlayState.coolingGF.alpha = 0;
 
 						swagBacks['hexDarkBack'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('backgrounds/hex/weekend/breakBack', 'hex'));
 						swagBacks['hexDarkBack'].antialiasing = true;
@@ -624,20 +624,20 @@ There's quite a bit of stuff here. I'll try to see if I can reduce it later.
 
 					// man this is stupid (don't cancel me again please)
 
-					PlayState.lcdDad2 = new Character(69, -58, 'lcdHEX2');
-					PlayState.lcdBF2 = new Boyfriend(753, 258, 'lcdBF2');
-					PlayState.lcdGF2 = new Boyfriend(248, -33, 'lcdGF2');
-					PlayState.lcdDad3 = new Character(69, -58, 'lcdHEX3');
-					PlayState.lcdBF3 = new Boyfriend(753, 258, 'lcdBF3');
-					PlayState.lcdGF3 = new Boyfriend(248, -33, 'lcdGF3');
+					meta.state.PlayState.lcdDad2 = new Character(69, -58, 'lcdHEX2');
+					meta.state.PlayState.lcdBF2 = new Boyfriend(753, 258, 'lcdBF2');
+					meta.state.PlayState.lcdGF2 = new Boyfriend(248, -33, 'lcdGF2');
+					meta.state.PlayState.lcdDad3 = new Character(69, -58, 'lcdHEX3');
+					meta.state.PlayState.lcdBF3 = new Boyfriend(753, 258, 'lcdBF3');
+					meta.state.PlayState.lcdGF3 = new Boyfriend(248, -33, 'lcdGF3');
 
-					PlayState.lcdDad2.alpha = 0;
-					PlayState.lcdBF2.alpha = 0;
-					PlayState.lcdGF2.alpha = 0;
+					meta.state.PlayState.lcdDad2.alpha = 0;
+					meta.state.PlayState.lcdBF2.alpha = 0;
+					meta.state.PlayState.lcdGF2.alpha = 0;
 
-					PlayState.lcdDad3.alpha = 0;
-					PlayState.lcdBF3.alpha = 0;
-					PlayState.lcdGF3.alpha = 0;
+					meta.state.PlayState.lcdDad3.alpha = 0;
+					meta.state.PlayState.lcdBF3.alpha = 0;
+					meta.state.PlayState.lcdGF3.alpha = 0;
 
 					swagBacks['hexBack1'] = new FlxSprite(-24, 24).loadGraphic(Paths.image('backgrounds/hex/lcd/au_lcd_back_1', 'hex'));
 					swagBacks['hexBack1'].antialiasing = true;
@@ -729,6 +729,15 @@ There's quite a bit of stuff here. I'll try to see if I can reduce it later.
 					toAdd.push(swagBacks['lights1']);
 					toAdd.push(swagBacks['lights2']);
 					toAdd.push(swagBacks['lights3']);
+					
+/**
+
+
+
+	Hex Stage Code ENDS Here. Reminder that I copied this code from V.S. Hex: The Weekend Update (v2)
+
+
+**/
 				}
 			default:
 				PlayState.defaultCamZoom = 0.9;
