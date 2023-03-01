@@ -46,6 +46,7 @@ ORIGINAL FUNKIN' FANMASTER CREDITS:
 ----------------------------------------------
 [SIG7](https://resite.link/SIG7) - Main dude.
 
+[AlexG1247](https://www.youtube.com/channel/UC2j8aQzjiv4qiwNF8qzmLNA) - Fella who helped with the stage code.
 ----------------------------------------------
 ORIGINAL FOREVER ENGINE CREDITS:
 ----------------------------------------------
