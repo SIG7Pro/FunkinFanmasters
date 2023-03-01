@@ -562,14 +562,14 @@ class PlayState extends MusicBeatState
 			if (!isStoryMode)
 			{
 				// charting state (more on that later)
-				if ((FlxG.keys.justPressed.SEVEN) && (!startingSong))
-				{
-					resetMusic();
-					if (Init.trueSettings.get('Use Forever Chart Editor'))
-						//Sorry not sorry.
-					else
-						//Silly Forever Engine fork.
-				}
+				//if ((FlxG.keys.justPressed.SEVEN) && (!startingSong))
+				//{
+					//resetMusic();
+					//if (Init.trueSettings.get('Use Forever Chart Editor'))
+						////Sorry not sorry.
+					//else
+						////Silly Forever Engine fork.
+				//}
 
 				if ((FlxG.keys.justPressed.SIX))
 					boyfriendStrums.autoplay = !boyfriendStrums.autoplay;
