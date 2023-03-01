@@ -436,7 +436,7 @@ class Character extends FNFSprite
 				playAnim('idle');
 //HEX CHARACTER CODE LETS GOOO
 			case 'hex':
-				tex = Paths.getSparrowAtlas('characters/hex', 'shared');
+				tex = Paths.getSparrowAtlas('characters/hex');
 				frames = tex;
 				animation.addByPrefix('idle', 'Dad idle dance', 24, false);
 				animation.addByPrefix('singUP', 'Dad Sing Note UP', 24, false);
@@ -450,7 +450,7 @@ class Character extends FNFSprite
 
 				barColor = FlxColor.fromRGB(76, 255, 244);
 			case 'hex-ss':
-				tex = Paths.getSparrowAtlas('characters/sunsethex', 'shared');
+				tex = Paths.getSparrowAtlas('characters/sunsethex');
 				frames = tex;
 				animation.addByPrefix('idle', 'Dad idle dance', 24, false);
 				animation.addByPrefix('singUP', 'Dad Sing Note UP', 24, false);
@@ -464,7 +464,7 @@ class Character extends FNFSprite
 
 				barColor = FlxColor.fromRGB(76, 255, 244);
 			case 'hex-n':
-				tex = Paths.getSparrowAtlas('characters/nighthex', "shared");
+				tex = Paths.getSparrowAtlas('characters/nighthex');
 				frames = tex;
 				animation.addByPrefix('idle', 'Dad idle dance', 24, false);
 				animation.addByPrefix('singUP', 'Dad Sing Note UP', 24, false);
@@ -479,7 +479,7 @@ class Character extends FNFSprite
 				barColor = FlxColor.fromRGB(76, 255, 244);
 
 			case "hex-w":
-				tex = Paths.getSparrowAtlas('characters/hex-w', 'shared');
+				tex = Paths.getSparrowAtlas('characters/hex-w');
 				frames = tex;
 				animation.addByPrefix('idle', 'Dad idle dance', 24, false);
 				animation.addByPrefix('singUP', 'Dad Sing Note UP', 24, false);
@@ -493,7 +493,7 @@ class Character extends FNFSprite
 
 				barColor = FlxColor.fromRGB(76, 255, 244);
 			case "lcdHEX1":
-				tex = Paths.getSparrowAtlas('characters/lcdHEX1', 'shared');
+				tex = Paths.getSparrowAtlas('characters/lcdHEX1');
 				frames = tex;
 				animation.addByPrefix('idle', 'Dad idle dance', 24, false);
 				animation.addByPrefix('singUP', 'Dad Sing Note UP', 24, false);
@@ -507,7 +507,7 @@ class Character extends FNFSprite
 
 				barColor = FlxColor.fromRGB(76, 255, 244);
 			case "lcdHEX2":
-				tex = Paths.getSparrowAtlas('characters/lcdHEX2', 'shared');
+				tex = Paths.getSparrowAtlas('characters/lcdHEX2');
 				frames = tex;
 				animation.addByPrefix('idle', 'Dad idle dance', 24, false);
 				animation.addByPrefix('singUP', 'Dad Sing Note UP', 24, false);
@@ -521,7 +521,7 @@ class Character extends FNFSprite
 
 				barColor = FlxColor.fromRGB(76, 255, 244);
 			case "lcdHEX3":
-				tex = Paths.getSparrowAtlas('characters/lcdHEX3', 'shared');
+				tex = Paths.getSparrowAtlas('characters/lcdHEX3');
 				frames = tex;
 				animation.addByPrefix('idle', 'Dad idle dance', 24, false);
 				animation.addByPrefix('singUP', 'Dad Sing Note UP', 24, false);
@@ -536,7 +536,7 @@ class Character extends FNFSprite
 				barColor = FlxColor.fromRGB(76, 255, 244);
 
 			case "hex-wc":
-				tex = Paths.getSparrowAtlas('characters/hex-wc', 'shared');
+				tex = Paths.getSparrowAtlas('characters/hex-wc');
 				frames = tex;
 				animation.addByPrefix('idle', 'Dad idle dance', 24, false);
 				animation.addByPrefix('singUP', 'Dad Sing Note UP', 24, false);
@@ -565,7 +565,7 @@ class Character extends FNFSprite
 
 				barColor = FlxColor.fromRGB(255, 23, 23);
 			case 'hex-g-bruh':
-				tex = Paths.getSparrowAtlas('characters/hex_superCrazy', 'shared');
+				tex = Paths.getSparrowAtlas('characters/hex_superCrazy');
 				frames = tex;
 				animation.addByPrefix('idle', 'Ilde instance 1', 24, false);
 				animation.addByPrefix('singUP', 'AAAAAA instance 1', 24, false);
@@ -579,7 +579,7 @@ class Character extends FNFSprite
 
 				barColor = FlxColor.fromRGB(255, 23, 23);
 			case 'rmxHex':
-				tex = Paths.getSparrowAtlas('characters/rmxHex', 'shared');
+				tex = Paths.getSparrowAtlas('characters/rmxHex');
 				frames = tex;
 				animation.addByPrefix('idle', 'Ilde instance 1', 24, false);
 				animation.addByPrefix('singUP', 'AAAAAA instance 1', 24, false);
@@ -594,7 +594,7 @@ class Character extends FNFSprite
 				barColor = FlxColor.fromRGB(255, 23, 23);
 
 			case 'hex-wire':
-				tex = Paths.getSparrowAtlas('characters/wirehex-virus', 'shared');
+				tex = Paths.getSparrowAtlas('characters/wirehex-virus');
 				frames = tex;
 				animation.addByPrefix('idle', 'Hex crazy idle', 24, false);
 				animation.addByPrefix('singUP', 'Hex crazy up', 24, false);
@@ -611,7 +611,7 @@ class Character extends FNFSprite
 //HEX CHARACTER CODE ENDS
 //BF HEX MODE ON
 							case 'bf-wc':
-				var tex = Paths.getSparrowAtlas('characters/bf-wc', 'shared');
+				var tex = Paths.getSparrowAtlas('characters/bf-wc');
 				frames = tex;
 
 				trace(tex.frames.length);
@@ -652,7 +652,7 @@ class Character extends FNFSprite
 
 				flipX = true;
 			case 'rmxBF':
-				var tex = Paths.getSparrowAtlas('characters/rmxBF', 'shared');
+				var tex = Paths.getSparrowAtlas('characters/rmxBF');
 				frames = tex;
 
 				trace(tex.frames.length);
@@ -693,7 +693,7 @@ class Character extends FNFSprite
 
 				flipX = true;
 			case 'lcdBF1':
-				var tex = Paths.getSparrowAtlas('characters/lcdBF1', 'shared');
+				var tex = Paths.getSparrowAtlas('characters/lcdBF1');
 				frames = tex;
 
 				trace(tex.frames.length);
@@ -734,7 +734,7 @@ class Character extends FNFSprite
 
 				flipX = true;
 			case 'lcdBF2':
-				var tex = Paths.getSparrowAtlas('characters/lcdBF2', 'shared');
+				var tex = Paths.getSparrowAtlas('characters/lcdBF2');
 				frames = tex;
 
 				trace(tex.frames.length);
@@ -775,7 +775,7 @@ class Character extends FNFSprite
 
 				flipX = true;
 			case 'lcdBF3':
-				var tex = Paths.getSparrowAtlas('characters/lcdBF3', 'shared');
+				var tex = Paths.getSparrowAtlas('characters/lcdBF3');
 				frames = tex;
 
 				trace(tex.frames.length);
@@ -816,7 +816,7 @@ class Character extends FNFSprite
 
 				flipX = true;
 			case 'bf-wd':
-				var tex = Paths.getSparrowAtlas('characters/bf-wd', 'shared');
+				var tex = Paths.getSparrowAtlas('characters/bf-wd');
 				frames = tex;
 
 				trace(tex.frames.length);
@@ -857,7 +857,7 @@ class Character extends FNFSprite
 
 				flipX = true;
 			case 'bf-ss':
-				var tex = Paths.getSparrowAtlas('characters/sunsetbf', 'shared');
+				var tex = Paths.getSparrowAtlas('characters/sunsetbf');
 				frames = tex;
 				animation.addByPrefix('idle', 'BF idle dance', 24, false);
 				animation.addByPrefix('singUP', 'BF NOTE UP0', 24, false);
@@ -895,7 +895,7 @@ class Character extends FNFSprite
 
 				flipX = true;
 			case 'bf-w':
-				var tex = Paths.getSparrowAtlas('characters/bf-w', 'shared');
+				var tex = Paths.getSparrowAtlas('characters/bf-w');
 				frames = tex;
 				animation.addByPrefix('idle', 'BF idle dance', 24, false);
 				animation.addByPrefix('singUP', 'BF NOTE UP0', 24, false);
@@ -933,7 +933,7 @@ class Character extends FNFSprite
 
 				flipX = true;
 			case 'bf-n':
-				var tex = Paths.getSparrowAtlas('characters/nightbf', 'shared');
+				var tex = Paths.getSparrowAtlas('characters/nightbf');
 				frames = tex;
 				animation.addByPrefix('idle', 'BF idle dance', 24, false);
 				animation.addByPrefix('singUP', 'BF NOTE UP0', 24, false);
@@ -971,7 +971,7 @@ class Character extends FNFSprite
 
 				flipX = true;
 			case 'bf-g':
-				var tex = Paths.getSparrowAtlas('characters/glitcherbf', 'shared');
+				var tex = Paths.getSparrowAtlas('characters/glitcherbf');
 				frames = tex;
 				animation.addByPrefix('idle', 'BF idle dance', 24, false);
 				animation.addByPrefix('singUP', 'BF NOTE UP0', 24, false);
@@ -1009,7 +1009,7 @@ class Character extends FNFSprite
 
 				flipX = true;
 			case 'bf-wire':
-				var tex = Paths.getSparrowAtlas('characters/wirebf', 'shared');
+				var tex = Paths.getSparrowAtlas('characters/wirebf');
 				frames = tex;
 				animation.addByPrefix('idle', 'BF idle dance', 24, false);
 				animation.addByPrefix('singUP', 'BF NOTE UP0', 24, false);
@@ -1049,7 +1049,7 @@ class Character extends FNFSprite
 //HEX BF ENDS
 //HEX GF GOES HERE
 			case 'gf-ss':
-				tex = Paths.getSparrowAtlas('characters/sunsetgf', 'shared');
+				tex = Paths.getSparrowAtlas('characters/sunsetgf');
 				frames = tex;
 				animation.addByPrefix('cheer', 'GF Cheer', 24, false);
 				animation.addByPrefix('singLEFT', 'GF left note', 24, false);
@@ -1079,7 +1079,7 @@ class Character extends FNFSprite
 
 				playAnim('danceRight');
 			case 'gf-n':
-				tex = Paths.getSparrowAtlas('characters/nightgf', 'shared');
+				tex = Paths.getSparrowAtlas('characters/nightgf');
 				frames = tex;
 				animation.addByPrefix('cheer', 'GF Cheer', 24, false);
 				animation.addByPrefix('singLEFT', 'GF left note', 24, false);
@@ -1109,7 +1109,7 @@ class Character extends FNFSprite
 
 				playAnim('danceRight');
 			case 'gf-g':
-				tex = Paths.getSparrowAtlas('characters/glitchergf', 'shared');
+				tex = Paths.getSparrowAtlas('characters/glitchergf');
 				frames = tex;
 				animation.addByPrefix('cheer', 'GF Cheer', 24, false);
 				animation.addByPrefix('singLEFT', 'GF left note', 24, false);
@@ -1139,7 +1139,7 @@ class Character extends FNFSprite
 
 				playAnim('danceRight');
 			case 'gf-wd':
-				tex = Paths.getSparrowAtlas('characters/gf-wd', 'shared');
+				tex = Paths.getSparrowAtlas('characters/gf-wd');
 				frames = tex;
 				animation.addByPrefix('cheer', 'GF Cheer', 24, false);
 				animation.addByPrefix('singLEFT', 'GF left note', 24, false);
@@ -1169,7 +1169,7 @@ class Character extends FNFSprite
 
 				playAnim('danceRight');
 			case 'gf-w':
-				tex = Paths.getSparrowAtlas('characters/gf-w', 'shared');
+				tex = Paths.getSparrowAtlas('characters/gf-w');
 				frames = tex;
 				animation.addByPrefix('cheer', 'GF Cheer', 24, false);
 				animation.addByPrefix('singLEFT', 'GF left note', 24, false);
@@ -1199,7 +1199,7 @@ class Character extends FNFSprite
 
 				playAnim('danceRight');
 			case 'gf-wc':
-				tex = Paths.getSparrowAtlas('characters/gf-wc', 'shared');
+				tex = Paths.getSparrowAtlas('characters/gf-wc');
 				frames = tex;
 				animation.addByPrefix('cheer', 'GF Cheer', 24, false);
 				animation.addByPrefix('singLEFT', 'GF left note', 24, false);
@@ -1230,7 +1230,7 @@ class Character extends FNFSprite
 				playAnim('danceRight');
 				flipX = true;
 			case 'lcdGF1':
-				tex = Paths.getSparrowAtlas('characters/lcdGF1', 'shared');
+				tex = Paths.getSparrowAtlas('characters/lcdGF1');
 				frames = tex;
 				animation.addByPrefix('cheer', 'GF Cheer', 24, false);
 				animation.addByPrefix('singLEFT', 'GF left note', 24, false);
@@ -1261,7 +1261,7 @@ class Character extends FNFSprite
 				playAnim('danceRight');
 				flipX = false;
 			case 'lcdGF2':
-				tex = Paths.getSparrowAtlas('characters/lcdGF2', 'shared');
+				tex = Paths.getSparrowAtlas('characters/lcdGF2');
 				frames = tex;
 				animation.addByPrefix('cheer', 'GF Cheer', 24, false);
 				animation.addByPrefix('singLEFT', 'GF left note', 24, false);
@@ -1292,7 +1292,7 @@ class Character extends FNFSprite
 				playAnim('danceRight');
 				flipX = true;
 			case 'lcdGF3':
-				tex = Paths.getSparrowAtlas('characters/lcdGF3', 'shared');
+				tex = Paths.getSparrowAtlas('characters/lcdGF3');
 				frames = tex;
 				animation.addByPrefix('cheer', 'GF Cheer', 24, false);
 				animation.addByPrefix('singLEFT', 'GF left note', 24, false);
@@ -1323,6 +1323,8 @@ class Character extends FNFSprite
 				playAnim('danceRight');
 				flipX = true;
 //HEX GF DIES HERE
+				
+				
 			default:
 				// set up animations if they aren't already
 
