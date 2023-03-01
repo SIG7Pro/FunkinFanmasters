@@ -319,8 +319,10 @@ class Stage extends FlxTypedGroup<FlxBasic>
 				bgGirls = new BackgroundGirls(-100, 190);
 				bgGirls.scrollFactor.set(0.9, 0.9);
 
-				if (PlayState.SONG.song.toLowerCase() == 'roses')
+				if (PlayState.SONG.song.toLowerCase() == 'roses'){
 					bgGirls.getScared();
+				}
+					
 
 				bgGirls.setGraphicSize(Std.int(bgGirls.width * daPixelZoom));
 				bgGirls.updateHitbox();
@@ -359,7 +361,8 @@ class Stage extends FlxTypedGroup<FlxBasic>
 				// add to the final array
 				add(stageFront);
 				
-				} default:
+				
+			default:
 				PlayState.defaultCamZoom = 0.9;
 				curStage = 'stage';
 				var bg:FNFSprite = new FNFSprite(-600, -200).loadGraphic(Paths.image('backgrounds/' + curStage + '/stageback'));
