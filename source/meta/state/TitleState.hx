@@ -31,10 +31,7 @@ import openfl.Assets;
 using StringTools;
 
 /**
-	I hate this state so much that I gave up after trying to rewrite it 3 times and just copy pasted the original code
-	with like minor edits so it actually runs in forever engine. I'll redo this later, I've said that like 12 times now
-
-	I genuinely fucking hate this code no offense ninjamuffin I just dont like it and I don't know why or how I should rewrite it
+:trollface:
 **/
 class TitleState extends MusicBeatState
 {
@@ -290,7 +287,7 @@ class TitleState extends MusicBeatState
 		switch (curBeat)
 		{
 			case 1:
-				createCoolText(['ninjamuffin', 'phantomArcade', 'kawaisprite', 'evilsker']);
+				createCoolText(['sig7', 'presents', 'to you', 'all']);
 
 			// credTextShit.visible = true;
 			case 3:
@@ -303,9 +300,9 @@ class TitleState extends MusicBeatState
 			// credTextShit.text = 'In association \nwith';
 			// credTextShit.screenCenter();
 			case 5:
-				createCoolText(['In association', 'with']);
+				createCoolText(['Not associated', 'with']);
 			case 7:
-				addMoreText('newgrounds');
+				addMoreText('the original mods');
 				ngSpr.visible = true;
 			// credTextShit.text += '\nNewgrounds';
 
@@ -328,13 +325,13 @@ class TitleState extends MusicBeatState
 			// credTextShit.text = "Friday";
 			// credTextShit.screenCenter();
 			case 13:
-				addMoreText('Friday');
+				addMoreText('Friday Night');
 			// credTextShit.visible = true;
 			case 14:
-				addMoreText('Night');
+				addMoreText('Funkin');
 			// credTextShit.text += '\nNight';
 			case 15:
-				addMoreText('Funkin'); // credTextShit.text += '\nFunkin';
+				addMoreText('FanMasters'); // credTextShit.text += '\nFunkin';
 
 			case 16:
 				skipIntro();
