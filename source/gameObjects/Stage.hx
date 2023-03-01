@@ -335,7 +335,6 @@ class Stage extends FlxTypedGroup<FlxBasic>
 				bg.scrollFactor.set(0.8, 0.9);
 				bg.scale.set(6, 6);
 				add(bg);
-				}
 //	Hex Stage Code would've started here, but I had to delete all the code.
 //It didn't quite work. I'll use the default stage code as a base for now.
 //	Hex Stage Code would've ended here, but I had to delete all the code, so I redid it..
@@ -359,8 +358,9 @@ class Stage extends FlxTypedGroup<FlxBasic>
 
 				// add to the final array
 				add(stageFront);
-		}
-			default:
+				}
+				{
+				default:
 				PlayState.defaultCamZoom = 0.9;
 				curStage = 'stage';
 				var bg:FNFSprite = new FNFSprite(-600, -200).loadGraphic(Paths.image('backgrounds/' + curStage + '/stageback'));
