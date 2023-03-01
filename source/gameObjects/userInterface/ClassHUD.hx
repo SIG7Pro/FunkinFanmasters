@@ -74,7 +74,7 @@ class ClassHUD extends FlxTypedGroup<FlxBasic>
 		healthBar.scrollFactor.set();
 		//colers
 		switch {(SONG.song.toLowerCase())
-		case 'test':
+		case 'test';
 		healthBar.createFilledBar(0xFF00FF00, 0xFF00FF00);
 		// old healthBar.createFilledBar(0xFFFF0000, 0xFF66FF33);
 		default:
