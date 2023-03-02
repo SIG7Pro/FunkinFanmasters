@@ -37,8 +37,8 @@ class Main extends Sprite
 		try accessing some game objects or meta files, meta files control the information (say what's playing on screen)
 		and game objects are like the boyfriend, girlfriend and the oppontent. 
 
-		Thanks for using my little modular engine project! I really appreciate it. 
-		If you've got any suggestions let me know at "!SIG7Ivan#2449" on discord or create a ticket on the github.
+		Thanks for using my little modular project! I really appreciate it. 
+		If you've got any suggestions let me know at "!SIG7Ivan#2449" on Discord or create a ticket on the github.
 		
 		Forever Engine is hard to use, shoutouts to Alex for being a better programmer than I.
 
@@ -73,8 +73,10 @@ class Main extends Sprite
 	public static var gameVersion:String = '0.3';
 
 	var zoom:Float = -1; // If -1, zoom is automatically calculated to fit the window dimensions.
-	var skipSplash:Bool = true; // Whether to skip the flixel splash screen that appears in release mode.
+	var skipSplash:Bool = false; // Whether to skip the flixel splash screen that appears in release mode.
 	var infoCounter:InfoHud; // initialize the heads up display that shows information before creating it.
+	
+
 
 	// heres gameweeks set up!
 
@@ -197,11 +199,27 @@ class Main extends Sprite
 
 		FlxTransitionableState.skipNextTransIn = true;
 		
+		
+		
+		
+		
+		
+		
 		// here we set up the base game
 		var gameCreate:FlxGame;
 		gameCreate = new FlxGame(gameWidth, gameHeight, mainClassState, #if (flixel < "5.0.0") zoom, #end framerate, framerate, skipSplash);
 		addChild(gameCreate); // and create it afterwards
-
+		flixel.FlxG.plugins.add(new screenshotplugin.ScreenShotPlugin());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		// default game FPS settings, I'll probably comment over them later.
 		// addChild(new FPS(10, 3, 0xFFFFFF));
 
@@ -286,7 +304,7 @@ class Main extends Sprite
 			}
 		}
 
-		errMsg += "\nUncaught Error: " + e.error + "\nPlease report this error to the GitHub page: https://github.com/Yoshubs/Forever-Engine";
+		errMsg += "\nUncaught Error: " + e.error + "\nPlease report this error to the GitHub page: https://github.com/SIG7Pro/FunkinFanmasters";
 
 		if (!FileSystem.exists("./crash/"))
 			FileSystem.createDirectory("./crash/");
