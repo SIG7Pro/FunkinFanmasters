@@ -13,15 +13,18 @@ This is a collection of fanmade remasters (in the form of re-sprites, and in the
 To do:
 ----------------------------------------------
 I don't care how big this section gets over time, as long as it is manageable.
+
 Remasters:
 - Hex Fanmaster [Being worked on]
 - Jukua Fanmaster (V.S. July, Low Priority.)
-- SNS Fanmaster (Low priority.)
+- SNS Fanmaster (Medium priority.)
 - Whitty Fanmaster (High priority.)
-- FlimFlam Fanmaster
-- Mega CD Locked On! and V.S. CD Fanmasters (Medium to low priority.)
+- FlimFlam Fanmaster (Perhaps)
+- Mega CD Locked On! and/or V.S. CD Fanmasters (Medium to low priority.)
 - VS Mario (the one with the Peach over GF skin.)
 - Stev Hervy (maybe)
+
+
 Code:
 - Backgrounds
 - Minor Engine Changes
@@ -46,7 +49,7 @@ ORIGINAL FUNKIN' FANMASTER CREDITS:
 ----------------------------------------------
 - [SIG7](https://resite.link/SIG7) - Main dude.
 
-- [AlexG1247](https://www.youtube.com/channel/UC2j8aQzjiv4qiwNF8qzmLNA) - Fella who helped with the stage code.
+- [AlexG1247](https://www.youtube.com/channel/UC2j8aQzjiv4qiwNF8qzmLNA) - Fella who helped with the stage code and fixed some other stuff.
 
 ----------------------------------------------
 ORIGINAL FOREVER ENGINE CREDITS:
