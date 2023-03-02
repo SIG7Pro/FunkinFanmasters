@@ -1,3 +1,5 @@
+//If Alex sees this from getting errors from this, feel free to just revert it back to FE's HealthIcon.hx file.
+
 package gameObjects.userInterface;
 
 import flixel.FlxG;
@@ -36,8 +38,37 @@ class HealthIcon extends FlxSprite
 		}
 
 		antialiasing = true;
-		var iconGraphic:FlxGraphic = Paths.image('icons/icon-' + iconPath);
-		loadGraphic(iconGraphic, true, Std.int(iconGraphic.width / 2), iconGraphic.height);
+		
+		//BELOW TAKEN FROM Theoyeah-Engine, PROBABLY WON'T IMMEDIATELY WORK, EDITED ACCORDINGLY
+		
+		     //var iconGraphic:FlxGraphic = Paths.image('icons/icon-' + iconPath);
+		
+			loadGraphic(iconGraphic); //Load stupidly first for getting the file size
+			//var frames:Array<Int> = [0, 1, 2];
+			var finalWidth = 3;
+			switch (file.width)
+			{
+				case 450:
+					finalWidth = 3;
+					var frames = [0, 1, 2];
+					iconOffsets[0] = (width - 450) / 3;
+					iconOffsets[1] = (width - 450) / 3;
+				case 300:
+					finalWidth = 2;
+					var frames = [0, 1];
+					iconOffsets[0] = (width - 300) / 2;
+					iconOffsets[1] = (width - 300) / 2;
+				case 150:
+					finalWidth = 1;
+					var frames = [0];
+					iconOffsets[0] = (width - 150) / 1;
+			}
+			loadGraphic(iconGraphic, true, Math.floor(width / finalWidth), Math.floor(height)); //Then load it fr
+		//ABOVE TAKEN FROM Theoyeah-Engine, PROBABLY WON'T IMMEDIATELY WORK, I'M WORKING ON IT
+		
+					
+		//loadGraphic(iconGraphic, true, Std.int(iconGraphic.width / 2), iconGraphic.height); Originally divides by 2 
+		  //since FE was only meant to support 2 icons.
 
 		initialWidth = width;
 		initialHeight = height;
@@ -45,6 +76,8 @@ class HealthIcon extends FlxSprite
 		animation.add('icon', [0, 1], 0, false, isPlayer);
 		animation.play('icon');
 		scrollFactor.set();
+		function updateHitbox()
+
 	}
 
 	override function update(elapsed:Float)
