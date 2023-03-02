@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: TestBuild
+name: Test Build (Debug, HTML5)
 
 # Controls when the action will run. 
 on:
@@ -49,7 +49,7 @@ jobs:
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
           haxelib install flixel-screenshot-plugin
           haxelib list
-          haxelib run lime build html5
+          haxelib run lime build html5 -debug
           
       - uses: actions/upload-artifact@v2
         with:
