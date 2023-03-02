@@ -28,6 +28,7 @@ echo Press any key to install discord rpc.
 pause >nul
 title FNF Setup - Installing libraries
 haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
+haxelib install flixel-screenshot-plugin
 cls
 goto UserActions1
 
