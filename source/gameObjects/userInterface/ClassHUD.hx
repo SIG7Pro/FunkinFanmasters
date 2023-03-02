@@ -75,27 +75,12 @@ class ClassHUD extends FlxTypedGroup<FlxBasic>
 		//colers
 		switch (SONG.song.toLowerCase())
 		{
-		        case 'senpai':
+		        case 'test':
 		        healthBar.createFilledBar(0xFF00FF00, 0xFF00FF00);
 		        default:
  		        healthBar.createFilledBar(0xFFFF0000, 0xFF00FF00);
 		}	
-		//if (meta.state.PlayState.SONG.songId.toLowerCase() == "senpai")
-		//{
-		////
-		//healthBar.createFilledBar(0xFF00FF00, 0xFF00FF00);
-		//// old healthBar.createFilledBar(0xFFFF0000, 0xFF66FF33);
-		//	}
-		//}
-
-		//else:
-		//healthBar.createFilledBar(0xFFFF0000, 0xFF00FF00);
-		
-		
-		//}
-		
-		
-		// old HP code above
+		//no more notes for you
 		add(healthBar);
 				
 				
@@ -120,7 +105,7 @@ class ClassHUD extends FlxTypedGroup<FlxBasic>
 		// small info bar, kinda like the KE watermark
 		// based on scoretxt which I will set up as well
 		var infoDisplay:String = CoolUtil.dashToSpace(PlayState.SONG.song) + ' - ' + CoolUtil.difficultyFromNumber(PlayState.storyDifficulty);
-		var engineDisplay:String = "Funkin' Fanworks /nForever Engine v" + Main.gameVersion;
+		var engineDisplay:String = "Funkin' Fanworks \nForever Engine v" + Main.gameVersion;
 		var engineBar:FlxText = new FlxText(0, FlxG.height - 30, 0, engineDisplay, 16);
 		engineBar.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		engineBar.updateHitbox();
@@ -184,8 +169,9 @@ class ClassHUD extends FlxTypedGroup<FlxBasic>
 		if (healthBar.percent < 20)
 	{
 			iconP1.animation.curAnim.curFrame = 1;
-		        iconP2.animation.curAnim.curFrame = 3;
+		        iconP2.animation.curAnim.curFrame = 2;
 		//attempt at seeing if I can do winning icons, I have no idea what I'm doing
+		//originally the two above as a three but the three played animation number one since animation number three doesn't exist i thinks
         }
 	 else
 			iconP1.animation.curAnim.curFrame = 0;
@@ -195,21 +181,20 @@ class ClassHUD extends FlxTypedGroup<FlxBasic>
 		{
 			iconP2.animation.curAnim.curFrame = 1;
 			//same attempt at seeing if I can do winning icons, I still have no idea what I'm doing
-			iconP1.animation.curAnim.curFrame = 3; }
+			iconP1.animation.curAnim.curFrame = 2; }
 		else
 			iconP1.animation.curAnim.curFrame = 0;
 			iconP2.animation.curAnim.curFrame = 0;
 	}
 
-	private final divider:String = ' -|- ';
+	private final divider:String = ' // ';
 
 	public function updateScoreText()
 	{
 		var importSongScore = PlayState.songScore;
 		var importPlayStateCombo = PlayState.combo;
 		var importMisses = PlayState.misses;
-		scoreBar.text = 'Score: $importSongScore';
-		// testing purposes
+		
 		var displayAccuracy:Bool = Init.trueSettings.get('Display Accuracy');
 		if (displayAccuracy)
 		{
@@ -217,6 +202,10 @@ class ClassHUD extends FlxTypedGroup<FlxBasic>
 			scoreBar.text += divider + 'Mess Ups: ' + Std.string(PlayState.misses);
 			scoreBar.text += divider + 'Grade: ' + Std.string(Timings.returnScoreRating().toUpperCase());
 		}
+		//the above code is moved before the below code so the code below can be created afterwards
+		scoreBar.text = 'Score: $importSongScore';
+		// testing purposes
+
 
 		scoreBar.x = ((FlxG.width / 2) - (scoreBar.width / 2));
 
