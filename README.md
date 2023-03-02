@@ -25,7 +25,7 @@ Remasters:
 Code:
 - Backgrounds
 - Minor Engine Changes
-- **Proper macOS build, like ASAP** [Being worked on.]
+- Proper macOS build [COMPLETED SINCE THE ENGINE WORKS LETS GOOOOO THANK YOU ALEXXXX]
 ----------------------------------------------
 
 ADDITIONS IN FE 0.2.3
