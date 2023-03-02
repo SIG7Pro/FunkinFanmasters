@@ -42,6 +42,7 @@ jobs:
           haxelib run flixel-tools setup
           haxelib git polymod https://github.com/larsiusprime/polymod.git
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
+          haxelib install flixel-screenshot-plugin
           haxelib list
         shell: cmd
       - name: Create APIStuff
