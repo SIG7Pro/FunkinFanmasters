@@ -38,25 +38,24 @@ class Main extends Sprite
 		and game objects are like the boyfriend, girlfriend and the oppontent. 
 
 		Thanks for using my little modular engine project! I really appreciate it. 
-		If you've got any suggestions let me know at Shubs#0404 on discord or create a ticket on the github.
-
-		To run through the basics, I've essentially created a rewrite of Friday Night Funkin that is supposed to be
-		more modular for mod devs to use if they want to, as well as to give mod devs a couple legs up in terms of
-		things like organisation and such, since I haven't really seen any engines that are organised like this.
-		also, playstate was getting real crowded so I did a me and decided to rewrite everything instead of just
-		fixing the problems with FNF :P
+		If you've got any suggestions let me know at "!SIG7Ivan#2449" on discord or create a ticket on the github.
+		
+		Forever Engine is hard to use, shoutouts to Alex for being a better programmer than I.
 
 		yeah this is a problem I have
 		it has to be perfect or else it isn't presentable
 
-		I'm sure I'll write this down in the github, but this is an open source Friday Night Funkin' Modding engine
+		I'm sure I'll write this down on the GitHub, but this is a fork of an open source Friday Night Funkin' Modding engine
 		which is completely open for anyone to modify. I have a couple of requests and prerequisites however, and that is
-		that you, number one, in no way claim this engine as your own. If you're going to make an open source modification to the engine
-		you should run a pull request or fork and not create a new standalone repo for it. If you're actually going to mod the game however,
-		please, by all means, create your own repository for it instead as it would be your project then. I also request the engine is credited
-		somewhere in the project. (in the gamebanana page, wherever you'd like/is most convenient for you!)
-		if you don't wanna credit me that's fine, I just ask for the project to be in the credits somewhere 
-		I do ask that you credit me if you make an actual modification to the engine or something like that, basically what I said above
+		that you, number one, in no way claim this, the modifications to the engine, or the sprites as your own. If you're going to 
+		make an open source modification to the engine you should run a pull request or fork and not create a new standalone repo 
+		for it.
+		If you're actually going to mod the game however, lease, by all means, create your own repository for it instead as it 
+		would be your project then. I also request the engine is credited somewhere in the project. (in the gamebanana page,
+		wherever you'd like/is most convenient for you!) if you don't wanna credit me that's fine, I just ask for the project
+		to be in the credits somewhere.
+
+		If you use the Fanmastered sprites and/or code, then it would be great if you could at least give credits.
 
 		I have no idea how licenses work so pretend I'm professional or something AAAA
 		thank you for using this engine it means a lot to me :)
@@ -92,7 +91,7 @@ class Main extends Sprite
 			['Bopeebo', 'Fresh', 'Dadbattle'],
 			['dad', 'dad', 'dad'],
 			[FlxColor.fromRGB(129, 100, 223)],
-			'vs. DADDY DEAREST'
+			'DADDY DEAREST'
 		],
 		[
 			['Spookeez', 'South', 'Monster'],
@@ -104,7 +103,7 @@ class Main extends Sprite
 			['Pico', 'Philly-Nice', 'Blammed'],
 			['pico'],
 			[FlxColor.fromRGB(111, 19, 60)],
-			'vs. Pico'
+			'Pico'
 		],
 		[
 			['Satin-Panties', 'High', 'Milf'],
@@ -123,6 +122,32 @@ class Main extends Sprite
 			['senpai', 'senpai', 'spirit'],
 			[FlxColor.fromRGB(206, 106, 169)],
 			"hating simulator ft. moawling"
+		],
+		
+		//Custom weeks.
+		[
+			['dunk', 'ram', 'hello-world', 'glitcher'],
+			['hex', 'hex', 'hex', 'hex'],
+			[FlxColor.fromRGB(206, 106, 169)],
+			"A New Face"
+		],
+		[
+			['hex', 'hex'],
+			['cooling', 'detected'],
+			[FlxColor.fromRGB(206, 106, 169)],
+			"hating simulator ft. moawling"
+		],
+		[
+			['Lo-Fight', 'Overhead', 'Ballistic'],
+			['whitty', 'whitty', 'angor'],
+			[FlxColor.fromRGB(175, 20, 0)],
+			"Back Alley Blitz"
+		],
+		[
+			['Underground'],
+			['white'],
+			[FlxColor.fromRGB(175, 20, 0)],
+			"Just like Old Times."
 		],
 	];
 
