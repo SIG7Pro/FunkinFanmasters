@@ -1,5 +1,5 @@
 //If Alex sees this from getting errors from this, feel free to just revert it back to FE's HealthIcon.hx file.
-
+//Probably not since I just renamed this to HealthIcon.FELegacy.hx.
 package gameObjects.userInterface;
 
 import flixel.FlxG;
