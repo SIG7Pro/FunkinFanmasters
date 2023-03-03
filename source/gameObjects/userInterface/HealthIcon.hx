@@ -70,7 +70,7 @@ class HealthIcon extends FlxSprite
 
 		antialiasing = true;
 
-		var iconGraphic:FlxGraphic = Paths.image('images/icons/')
+		var iconGraphic:FlxGraphic = Paths.image('images/icons/');
 		var iconWidth:Int = 1;
 
 		loadGraphic(iconGraphic); // get file size;
