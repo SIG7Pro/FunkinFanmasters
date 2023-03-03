@@ -53,23 +53,24 @@ class HealthIcon extends FlxSprite
 
 	public function updateIcon(char:String = 'bf', isPlayer:Bool = false)
 	{
-		//var trimmedChar:String = char;
-		//if (trimmedChar.contains('-'))
-		//	trimmedChar = trimmedChar.substring(0, trimmedChar.indexOf('-'));
+		var trimmedChar:String = char;
+		if (trimmedChar.contains('-'))
+			trimmedChar = trimmedChar.substring(0, trimmedChar.indexOf('-'));
 	//screw this code
+		//never mind i have to re-add it :sob:
 
 		var iconPath = char;
-		if (!FileSystem.exists(Paths.getPath('data/characters/$iconPath/icon$suffix.png', IMAGE)))
+		if (!FileSystem.exists(Paths.getPath('images/icons/icon-' + iconPath + '.png', IMAGE)))
 		{
 			if (iconPath != trimmedChar)
 				iconPath = trimmedChar;
 			else
-				iconPath = 'placeholder';
+				iconPath = 'face';
 		}
 
 		antialiasing = true;
 
-		var iconGraphic:FlxGraphic = Paths.image('$iconPath/icon$suffix', 'data/characters');
+		var iconGraphic:FlxGraphic = Paths.image('images/icons/')
 		var iconWidth:Int = 1;
 
 		loadGraphic(iconGraphic); // get file size;
