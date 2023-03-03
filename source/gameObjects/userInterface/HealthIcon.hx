@@ -1,6 +1,6 @@
-//Taken from Forever Engine Feather. Shoutouts to BeastlyGhost.
+//Taken from Forever Engine Feather, edited accordingly. Shoutouts to BeastlyGhost.
 
-package objects.ui;
+package gameObjects.userInterface;
 
 import flixel.FlxSprite;
 import flixel.graphics.FlxGraphic;
