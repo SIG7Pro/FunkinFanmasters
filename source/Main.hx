@@ -71,7 +71,8 @@ class Main extends Sprite
 	public static var framerate:Int = 120; // How many frames per second the game should run at.
 
 	public static var gameVersion:String = '0.3';
-
+	public static var modVersion:String = '0.1';
+	
 	var zoom:Float = -1; // If -1, zoom is automatically calculated to fit the window dimensions.
 	var skipSplash:Bool = false; // Whether to skip the flixel splash screen that appears in release mode.
 	var infoCounter:InfoHud; // initialize the heads up display that shows information before creating it.
@@ -201,19 +202,22 @@ class Main extends Sprite
 		
 		
 		
-		
-		
-		
-		
+	////	
+	////
+	////
+	////
 		// here we set up the base game
 		var gameCreate:FlxGame;
 		gameCreate = new FlxGame(gameWidth, gameHeight, mainClassState, #if (flixel < "5.0.0") zoom, #end framerate, framerate, skipSplash);
 		addChild(gameCreate); // and create it afterwards
+		
 		flixel.FlxG.plugins.add(new screenshotplugin.ScreenShotPlugin());
-		
-		
-		
-		
+		//https://github.com/sayofthelor/flixel-screenshot-plugin
+		//When does FlxGame get initialized? I'm guessing here but it didn't work last time.
+	////
+	////
+	////
+	////
 		
 		
 		
