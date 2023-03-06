@@ -1,28 +1,41 @@
-# [Funkin' Fanmasters](https://github.com/Yoshubs/FunkinForever)
+# [Funkin' Fanmasters](https://github.com/SIG7Pro/FunkinFanmasters)
 Built off of an open-source, modular, optimized, and HOPEFULLY easy to use [Friday Night Funkin'](https://www.newgrounds.com/portal/view/770371) mod engine!
 ----------------------------------------------
 
 ![image](https://media.discordapp.net/attachments/1002371267082584136/1079868774473281717/image.png?width=459&height=235)
 
-Info
+
+## Friday Night Funkin'
+"What the funk is Friday Night Funkin'?", you may be asking.
+
+**Friday Night Funkin'** is a rhythm game originally made for Ludum Dare 47 "Stuck In a Loop".
+
+Links: **[Play The Game](https://www.newgrounds.com/portal/view/770371) ⋅  [Download The Game (slightly outdated)](https://ninja-muffin24.itch.io/funkin) ⋅ [Source Code](https://github.com/FunkinCrew/Funkin)**
+> Uh oh! Your tryin to kiss ur hot girlfriend, but her MEAN and EVIL dad is trying to KILL you! He's an ex-rockstar, the only way to get to his heart? The power of music... 
+
+
+Quick Notes!
 ----------------------------------------------
-This is a collection of fanmade remasters (in the form of re-sprites, and in the rare instances, code and music) that I've made, but put on Forever Engine. That doesn't mean the fanmasters are better than the originals however, this is only a tribute to Friday Night Funkin' and its modding community, a small project of mine that I hope people can find enjoyment and use out of!
+This is a collection of fanmade remasters (in the form of re-sprites, and in the rare instances, code and music) that I've made based off of other people's modifications of Friday Night Funkin', but put on Forever Engine, another Friday Night Funkin'. That doesn't mean the fanmasters are better than the originals however, this is only a tribute to Friday Night Funkin' and its modding community, a small project of mine that I hope people can find enjoyment and use out of!
+
+
+For those who are new to Friday Night Funkin' and its modding scene, Forever Engine is a rewrite of the game intended for ease of access, which includes things such as a redone options menu, colorblind filters, noteskins, and more!
 
 **FOREVER ENGINE IS ONLY MEANT TO BE USED ON DESKTOP! BIG L MOMENTO!**
-----------------------------------------------
+
+
 To do:
 ----------------------------------------------
 I don't care how big this section gets over time, as long as it is manageable.
 
 Remasters:
 - Hex Fanmaster [Being worked on]
-- Jukua Fanmaster (V.S. July, Low Priority.)
+- VS July Fanmaster (Low priority.)
 - SNS Fanmaster (Medium priority.)
 - Whitty Fanmaster (High priority.)
 - FlimFlam Fanmaster (Perhaps)
-- Mega CD Locked On! and/or V.S. CD Fanmasters (Medium to low priority.)
 - VS Mario (the one with the Peach over GF skin.)
-- Stev Hervy (maybe)
+- VS Stev Hervy (maybe)
 
 
 Code:
@@ -31,18 +44,14 @@ Code:
 - Proper macOS build [COMPLETED SINCE THE ENGINE WORKS LETS GOOOOO THANK YOU ALEXXXX]
 ----------------------------------------------
 
-ADDITIONS IN FE 0.2.3
+**Additions Exclusive to this Mod!
+- A new UI skin.
+- Two "original" pixel note skins.
+- A slightly modified user interface.
+- OMG HEX
+- Betatested on macOS.
+- Screenshotting! (Press F2!)
 
-- Automatic Freeplay Song Loading
-- Streamlined Storymenu
-- Note Quants & Forever UI (unfinished)
-- Bug Fixes (hopefully) for issues that were recurring
-- ENTIRELY OVERHAULED OPTIONS MENU
-- so much more I forgot about because its 5 am I'm just trying to push an update
------------------------------------------------
-Forever Engine's FEATURES! - 
-
-Giving me trouble compiling.
 
 ----------------------------------------------
 ORIGINAL FUNKIN' FANMASTER CREDITS:
@@ -76,11 +85,13 @@ CREDITED MAINTENANCE AND SOME MISC FIXES, also scaleable text for dialogue funct
 rest of the rise n' skate team - that mod is the reason im even making an engine right now so like I kind of owe you guys this whole engine and more for that honestly and I will actually do more so stay tuned
 
 ----------------------------------------------
-SHOUTOUTS
+SPECIAL THANKS!
 ----------------------------------------------
 [j](https://github.com/j) - Jordan Stout is real!!!
 
 NottCawthena - Emotional support and epic bestie.
+
+Sayofthelor - Screenshot plugin.
 
 ----------------------------------------------
 How to Compile:
