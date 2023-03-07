@@ -69,7 +69,7 @@ class Init extends FlxState
 		'Stage Opacity' => [
 			Checkmark,
 			Selector,
-			'Darkens non-ui elements, useful if you find the characters and backgrounds distracting.',
+			'Makes the non-UI game elements transparent, useful if you find them distracting.',
 			NOT_FORCED
 		],
 		'Opacity Type' => [
@@ -111,6 +111,12 @@ class Init extends FlxState
 			'Whether to disable note splashes in gameplay. Useful if you find them distracting.',
 			NOT_FORCED
 		],
+		'Icon Type' => [
+			false,
+			Checkmark,
+			'Whether to keep the modern icon style or revert to the ones before the Week 4 update (0.2.5).',
+			NOT_FORCED
+		],
 		// custom ones lol
 		'Offset' => [Checkmark, 3],
 		'Filter' => [
@@ -126,12 +132,26 @@ class Init extends FlxState
 		"Note Skin" => ['default', Selector, 'Choose a note skin.', NOT_FORCED, ''],
 		"Framerate Cap" => [120, Selector, 'Define your maximum FPS.', NOT_FORCED, ['']],
 		"Opaque Arrows" => [false, Checkmark, "Makes the arrows at the top of the screen opaque again.", NOT_FORCED],
-		"Opaque Holds" => [false, Checkmark, "Huh, why isnt the trail cut off?", NOT_FORCED],
+		"Opaque Holds" => [false, Checkmark, "Huh, why is the trail not cut off?", NOT_FORCED],
 		'Ghost Tapping' => [
 			false,
 			Checkmark,
 			"Enables Ghost Tapping, allowing you to press inputs without missing.",
 			NOT_FORCED
+		],
+		'Icon Type' => [
+			'Modern',
+			Selector,
+			'Choose whether to keep the modern icon style or revert to the ones before the Week 4 update (0.2.5).',
+			NOT_FORCED,
+			['Modern', 'Old', 'None']
+		],
+		'Cursor Type' => [
+			'System',
+			Selector,
+			'Choose whether to use the default HaxeFlixel cursor, the system default cursor, or none at all.',
+			NOT_FORCED,
+			['System', 'HaxeFlixel', 'None']
 		],
 		'Centered Notefield' => [false, Checkmark, "Center the notes, disables the enemy's notes."],
 		"Custom Titlescreen" => [
@@ -230,8 +250,8 @@ class Init extends FlxState
 
 		// Some additional changes to default HaxeFlixel settings, both for ease of debugging and usability.
 		FlxG.fixedTimestep = false; // This ensures that the game is not tied to the FPS
-		FlxG.mouse.useSystemCursor = true; // Use system cursor because it's prettier
-		FlxG.mouse.visible = false; // Hide mouse on start
+		//FlxG.mouse.useSystemCursor = true; // Use system cursor because it's prettier
+		//FlxG.mouse.visible = false; // Hide mouse on start
 		FlxGraphic.defaultPersist = true; // make sure we control all of the memory
 		
 		gotoTitleScreen();
