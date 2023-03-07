@@ -95,6 +95,24 @@ class ClassHUD extends FlxTypedGroup<FlxBasic>
 		iconP2 = new HealthIcon(SONG.player2, false);
 		iconP2.y = healthBar.y - (iconP2.height / 2);
 		add(iconP2);
+		
+		// Old Icons :skull:
+		healthHeads = new FlxSprite();
+		var headTex = FlxAtlasFrames.fromSparrow(AssetPaths.healthHeads__png, AssetPaths.healthHeads__xml);
+		healthHeads.frames = headTex;
+		healthHeads.animation.add('healthy', [0]);
+		healthHeads.animation.add('unhealthy', [1]);
+		healthHeads.animation.add('unhealthy', [2]);
+		healthHeads.y = healthBar.y - (healthHeads.height / 3);
+		healthHeads.scrollFactor.set();
+		healthHeads.antialiasing = true;
+		add(healthHeads);
+		// Based off of 0.2.1.1's code?
+		
+		
+		
+		
+		
 
 		scoreBar = new FlxText(FlxG.width / 2, healthBarBG.y + 40, 0, scoreDisplay, 20);
 		scoreBar.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
