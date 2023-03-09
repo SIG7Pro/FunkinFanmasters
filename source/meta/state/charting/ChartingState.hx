@@ -1,13 +1,4 @@
-//function update() {
-    //whee();
-//}
 
-//function whee() {
-//
-//FlxG.switchState(new meta.state.PlayState());
-//}
-
-/**
 package meta.state.charting;
 
 import flixel.FlxBasic;
@@ -521,7 +512,7 @@ class ChartingState extends MusicBeatState
 				// set the note at the current note map
 				curNoteMap.set(note, [sustainVis, sustainEnd]);
 			}
-		 
+		 */
 	}
 
 
@@ -569,4 +560,4 @@ class ChartingState extends MusicBeatState
 
 	// 
 }
-**/
+
