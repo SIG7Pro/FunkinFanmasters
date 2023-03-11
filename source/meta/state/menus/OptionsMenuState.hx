@@ -17,7 +17,7 @@ import meta.data.font.Alphabet;
 import meta.subState.OptionsSubstate;
 
 /**
-	Options menu rewrite because I'm unhappy with how it was done previously
+	How to options?
 **/
 class OptionsMenuState extends MusicBeatState
 {
@@ -55,7 +55,7 @@ class OptionsMenuState extends MusicBeatState
 					['preferences', callNewGroup],
 					['appearance', callNewGroup],
 					['controls', openControlmenu],
-					['exit', exitMenu]
+					['back', exitMenu]
 				]
 			],
 			'preferences' => [
@@ -113,7 +113,7 @@ class OptionsMenuState extends MusicBeatState
 
 		// call the options menu
 		var bg = new FlxSprite(-85);
-		bg.loadGraphic(Paths.image('menus/base/menuDesat'));
+		bg.loadGraphic(Paths.image('menus/base/optionsHD'));
 		bg.scrollFactor.x = 0;
 		bg.scrollFactor.y = 0.18;
 		bg.setGraphicSize(Std.int(bg.width * 1.1));
