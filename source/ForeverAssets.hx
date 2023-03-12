@@ -268,17 +268,12 @@ class ForeverAssets
 			default:
 				newCheckmark.frames = Paths.getSparrowAtlas(ForeverTools.returnSkinAsset(asset, assetModifier, changeableSkin, baseLibrary));
 				newCheckmark.antialiasing = true;
-
-				newCheckmark.animation.addByPrefix('false finished', 'uncheckFinished');
-				newCheckmark.animation.addByPrefix('false', 'uncheck', 12, false);
-				newCheckmark.animation.addByPrefix('true finished', 'checkFinished');
-				newCheckmark.animation.addByPrefix('true', 'check', 12, false);
-
-				// for week 7 assets when they decide to exist
-				// animation.addByPrefix('false', 'Check Box unselected', 24, true);
-				// animation.addByPrefix('false finished', 'Check Box unselected', 24, true);
-				// animation.addByPrefix('true finished', 'Check Box Selected Static', 24, true);
-				// animation.addByPrefix('true', 'Check Box selecting animation', 24, false);
+				
+				//Funkin' 0.2.8's checkmarks.
+				 animation.addByPrefix('false', 'Check Box unselected', 24, true);
+				 animation.addByPrefix('false finished', 'Check Box unselected', 24, true);
+				 animation.addByPrefix('true finished', 'Check Box Selected Static', 24, true);
+				 animation.addByPrefix('true', 'Check Box selecting animation', 24, false);
 				newCheckmark.setGraphicSize(Std.int(newCheckmark.width * 0.7));
 				newCheckmark.updateHitbox();
 
