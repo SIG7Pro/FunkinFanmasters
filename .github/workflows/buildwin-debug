@@ -30,19 +30,21 @@ jobs:
       - name: Install Haxelib
         run: |
           haxelib setup C:/haxelib
-          haxelib install lime 7.8.0
+          haxelib install lime 7.9.0
           haxelib install openfl
-          haxelib install flixel 4.8.1
+          haxelib install flixel
           haxelib install flixel-ui
-          haxelib git flixel-addons https://github.com/HaxeFlixel/flixel-addons
-          haxelib install hscript
-          haxelib install newgrounds
+          haxelib run lime setup flixel
           haxelib run lime setup
           haxelib install flixel-tools
-          haxelib run flixel-tools setup
+          haxelib install flixel-addons
+          haxelib install hscript
+          haxelib install newgrounds
           haxelib git polymod https://github.com/larsiusprime/polymod.git
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
           haxelib install flixel-screenshot-plugin
+          haxelib git flixel-leather https://github.com/Leather128/flixel.git
+          haxelib git hscript-improved https://www.github.com/YoshiCrafter29/hscript-improved
           haxelib list
         shell: cmd
       - name: Create APIStuff
