@@ -126,6 +126,13 @@ class Main extends Sprite
 			[FlxColor.fromRGB(206, 106, 169)],
 			"hating simulator ft. moawling"
 		],
+		//Week 7, properly ported from 0.2.8
+		[
+			['Ugh', 'Guns', 'Stress'],
+			['tankman', 'tankman', 'tankman'],
+			[FlxColor.fromRGB(246, 182, 04)],
+			"Tankman"
+		],
 		
 		//Custom weeks.
 		[
