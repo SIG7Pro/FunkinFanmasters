@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 # Me when Ivan doesn't use Linux :skull:
-name: BuildLinux (Debug)
+name: BuildLinux (Debug, Experimental)
 
 # Controls when the action will run. 
 on:
@@ -34,7 +34,6 @@ jobs:
           sudo apt-get install gcc-multilib g++-multilib haxe -y
           mkdir "%HAXELIB_ROOT%"
           haxelib setup "%HAXELIB_ROOT%"
-          haxelib install hxcpp
           haxelib install lime 7.9.0
           haxelib install openfl
           haxelib install flixel
@@ -48,8 +47,9 @@ jobs:
           haxelib git polymod https://github.com/larsiusprime/polymod.git
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
           haxelib install flixel-screenshot-plugin
+          haxelib git flixel-leather https://github.com/Leather128/flixel.git
+          haxelib git hscript-improved https://www.github.com/YoshiCrafter29/hscript-improved
           haxelib list
-          haxelib run lime build linux -debug
           
       - uses: actions/upload-artifact@v2
         with:
