@@ -48,8 +48,9 @@ jobs:
           haxelib git polymod https://github.com/larsiusprime/polymod.git
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
           haxelib install flixel-screenshot-plugin
+          haxelib git flixel-leather https://github.com/Leather128/flixel.git
+          haxelib git hscript-improved https://www.github.com/YoshiCrafter29/hscript-improved
           haxelib list
-          haxelib run lime build linux
           
       - uses: actions/upload-artifact@v2
         with:
