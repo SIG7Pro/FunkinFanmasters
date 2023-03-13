@@ -588,7 +588,7 @@ class PlayState extends MusicBeatState
 					boyfriendStrums.autoplay = !boyfriendStrums.autoplay;
 					
 				if ((FlxG.keys.justPressed.NINE))
-					boyfriendStrums.autoplay = !boyfriendStrums.autoplay;
+					//boyfriendStrums.autoplay = !boyfriendStrums.autoplay;
 				//
 				//
 				//
