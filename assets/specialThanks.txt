@@ -1,3 +1,10 @@
+# Friday Night Funkin' Fanmasters Special Thanks
+AlexG1247 (some coding help)
+ninjamuffin99 (coded the original FNF')
+Yoshubs (coded the original Forever Engine mod)
+
+
+# Base Game Special Thanks:
 wanda
 fizzd
 kiddbrute
