@@ -31,10 +31,10 @@
 	<set name="BUILD_DIR" value="export" />
 	<source path="source" />
 	<assets path="assets" />
-	<assets path="screenshots" />
-	<assets path="assets/brandon" />
+
+	<!--<assets path="assets/brandon" />-->
 	<assets path="FE-CrashDialog.exe" type="template" if="windows release" />
-	<assets path='mods' rename='useless-mods-folder' embed='false'/>
+	<!--<assets path='mods' rename='useless-mods-folder' embed='false'/>-->
 
 	<!--<assets path="mods" />-->
 
