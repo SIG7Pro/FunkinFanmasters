@@ -8,7 +8,7 @@ Built off of an open-source, modular, optimized, and HOPEFULLY easy to use [Frid
 ## Friday Night Funkin'
 "What the funk is Friday Night Funkin'?", you may be asking.
 
-**Friday Night Funkin'** is a rhythm game originally made for Ludum Dare 47 "Stuck In a Loop".
+### Friday Night Funkin' is a rhythm game originally made for Ludum Dare 47 "Stuck In a Loop".
 
 Links: **[Play The Game](https://www.newgrounds.com/portal/view/770371) ⋅  [Download The Game (slightly outdated)](https://ninja-muffin24.itch.io/funkin) ⋅ [Source Code](https://github.com/FunkinCrew/Funkin)**
 > Uh oh! Your tryin to kiss ur hot girlfriend, but her MEAN and EVIL dad is trying to KILL you! He's an ex-rockstar, the only way to get to his heart? The power of music... 
@@ -29,22 +29,22 @@ To do:
 I don't care how big this section gets over time, as long as it is manageable.
 
 Remasters:
-- Hex Fanmaster [Being worked on]
-- VS July Fanmaster (Low priority.)
-- SNS Fanmaster (Medium priority.)
-- Whitty Fanmaster (High priority.)
-- FlimFlam Fanmaster (Perhaps)
-- VS Mario (the one with the Peach over GF skin.)
-- VS Stev Hervy (maybe)
+[ ] Hex Fanmaster [Being worked on]
+[ ] VS July Fanmaster (Low priority.)
+[ ] SNS Fanmaster (Medium priority.)
+[ ] Whitty Fanmaster (High priority.)
+[ ] FlimFlam Fanmaster (Perhaps)
+[ ] VS Mario (the one with the Peach over GF skin.)
+[ ] VS Stev Hervy (maybe)
 
 
 Code:
-- Backgrounds
-- Minor Engine Changes
-- Proper macOS build [COMPLETED SINCE THE ENGINE WORKS LETS GOOOOO THANK YOU ALEXXXX]
+[ ] Backgrounds
+[ ] Minor Engine Changes
+[X] Proper macOS build? [Compatible!]
 ----------------------------------------------
 
-**Additions Exclusive to this Mod!
+Extra additions!
 - A new UI skin.
 - Two "original" pixel note skins.
 - A slightly modified user interface.
@@ -61,40 +61,18 @@ ORIGINAL FUNKIN' FANMASTER CREDITS:
 - [AlexG1247](https://www.youtube.com/channel/UC2j8aQzjiv4qiwNF8qzmLNA) - Fella who helped with the stage code and fixed some other stuff.
 
 ----------------------------------------------
-ORIGINAL FOREVER ENGINE CREDITS:
-----------------------------------------------
-I don't care how big this section gets over time, I will actually keep expanding it. People deserve credit for what they do!
-
-Yoshubs - made the engine. she just so happens to be very fucking stupid for accidentally pushing the martian mixtape source code into forever engine's base github page
-
-[Pixloen](https://github.com/PixlJacket) - made a lot of the custom assets that forever engine uses, he also gave the original FE Dev a lot of general advice on how to improve the engine as well as his input on both how to improve upon the base game and how the input system felt and such. ALSO PROGRAMMED SIMPLY JUDGEMENTS AND BACKGROUND DARKEN, He basically co-owned the original engine.
-
-[Gedehari](https://github.com/gedehari) - BANGER ASS PROGRAMMER, made the freeplay loading thread to avoid lag issues in freeplay, waveform render code (which will be used soon), freaking EXTERNAL SHADER SUPPORT for modcharts when they're a thing and so many other things like the crashlogger. I urge you to check out his project, [Izzy Engine](https://github.com/gedehari/IzzyEngine). Some aspects of which were used in Forever Engine
-
-[ImCodist](https://github.com/ImCodist) - helped with a couple of pull requests and issue fixes, ALSO MADE THE WHOLE ASS FREAKING DIALOGUE SYSTEM, but, no credit is given.
-
-[Scarlett](https://github.com/SomeKitten) - She wrote the finalised math formula for the note quants and fixed the song name issue.
-
-[Oneilr](https://oneilr.newgrounds.com/) - Cool Guy Oneilr, made some of the custom assets for FE, mostly the animated ones like the custom note splashes as well as some other things like the checkmarks in the options menu.
-
-[HelloSammu](https://github.com/hellosammu) - weird catgirl programmer, they scare me
-CREDITED MAINTENANCE AND SOME MISC FIXES, also scaleable text for dialogue functions
-
-[ninjamuffin99](https://ninjamuffin99.newgrounds.com/) - HE MADE THE BASE GAME SO LIKE WITHOUT HIM THIS WOULD NOT BE POSSIBLE GO CHECK HIM OUT RIGHT NOW
-
-rest of the rise n' skate team - that mod is the reason im even making an engine right now so like I kind of owe you guys this whole engine and more for that honestly and I will actually do more so stay tuned
-
-----------------------------------------------
 SPECIAL THANKS!
 ----------------------------------------------
 [j](https://github.com/j) - Jordan Stout is real!!!
 
-NottCawthena - Emotional support and epic bestie.
+NottCawthena - Emotional support sometimes and epic bestie all the time.
 
 Sayofthelor - Screenshot plugin.
 
+[ithub Markdown Document](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 ----------------------------------------------
 How to Compile:
+----------------------------------------------
 
 Basically, all of the files you need are in the engine itself through the setup.bat (Huge thanks to [FNF Source Code Guide](https://gamebanana.com/tuts/13798) for the download to the file) except for Visual Studio Code, or whatever program you choose to use to program in the engine. If you've already worked with FNF', this should work perfectly with you and if it doesn't, then you might have the wrong target settings, or Lime is probably broken, that's usually what happens with these things. It's happened to me a ton of times, I'm not a good programmer.
 
