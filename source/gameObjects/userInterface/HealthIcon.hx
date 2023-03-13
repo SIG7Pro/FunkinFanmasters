@@ -1,5 +1,6 @@
 //Reverted to old code...
-//To do:
+//To do
+//:
 //Figure out a way to see how wide a sprite's image is, so we can do some shenanigans...
 
 package gameObjects.userInterface;
@@ -17,6 +18,8 @@ class HealthIcon extends FlxSprite
 	public var sprTracker:FlxSprite;
 	public var initialWidth:Float = 0;
 	public var initialHeight:Float = 0;
+	public var isOldIcon:Bool = false;
+
 
 	public function new(char:String = 'bf', isPlayer:Bool = false)
 	{
@@ -37,7 +40,7 @@ class HealthIcon extends FlxSprite
 			else
 				iconPath = 'face';
 			trace('$char icon trying $iconPath instead you fuck');
-		}
+	}
 
 		antialiasing = true;
 		var iconGraphic:FlxGraphic = Paths.image('icons/icon-' + iconPath);
@@ -45,9 +48,15 @@ class HealthIcon extends FlxSprite
 
 		initialWidth = width;
 		initialHeight = height;
+//Codename Engine Shenanigans until ya set the scrollfactor.
+		animation.add(char, [for(i in 0...frames.frames.length) i], 0, false, isPlayer);
+		antialiasing = true;
+		animation.play(char);
 
-		animation.add('icon', [0, 1], 0, false, isPlayer);
-		animation.play('icon');
+		if (frames.frames.length >= 3)
+			healthSteps[80] = 2; // winning icon
+
+
 		scrollFactor.set();
 	}
 
@@ -60,6 +69,14 @@ class HealthIcon extends FlxSprite
 	}
 }
 
+//Funkin' Lullaby Shenanigans
+	public function swapOldIcon()
+	{
+		if (isOldIcon = !isOldIcon)
+			changeIcon('bf-old');
+		else
+			changeIcon('bf');
+	}
 
 
 
