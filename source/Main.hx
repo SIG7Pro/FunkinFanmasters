@@ -130,7 +130,7 @@ class Main extends Sprite
 		[
 			['Ugh', 'Guns', 'Stress'],
 			['tankman', 'tankman', 'tankman'],
-			[FlxColor.fromRGB(246, 182, 04)],
+			[FlxColor.fromRGB(246, 182, 4)],
 			"Tankman"
 		],
 		
@@ -145,7 +145,7 @@ class Main extends Sprite
 			['hex', 'hex'],
 			['cooling', 'detected'],
 			[FlxColor.fromRGB(206, 106, 169)],
-			"hating simulator ft. moawling"
+			"YOUR NEW WEEK"
 		],
 		[
 			['Lo-Fight', 'Overhead', 'Ballistic'],
