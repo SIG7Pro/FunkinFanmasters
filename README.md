@@ -6,13 +6,15 @@ Built off of an open-source, modular, optimized, and HOPEFULLY easy to use [Frid
 
 
 ## Friday Night Funkin'
-"What the funk is Friday Night Funkin'?", you may be asking.
+What the FUNK is FRIDAY NIGHT FUNKIN'?
 
 ### Friday Night Funkin' is a rhythm game originally made for Ludum Dare 47 "Stuck In a Loop".
 
-Links: **[Play The Game](https://www.newgrounds.com/portal/view/770371) ⋅  [Download The Game (slightly outdated)](https://ninja-muffin24.itch.io/funkin) ⋅ [Source Code](https://github.com/FunkinCrew/Funkin)**
+Links: **[Official Website](https://www.funkin.me) ⋅  **[Play The Game](https://www.newgrounds.com/portal/view/770371) ⋅  [Download The Game (0.2.7.1)](https://ninja-muffin24.itch.io/funkin) ⋅ [Source Code](https://github.com/FunkinCrew/Funkin)**
 > Uh oh! Your tryin to kiss ur hot girlfriend, but her MEAN and EVIL dad is trying to KILL you! He's an ex-rockstar, the only way to get to his heart? The power of music... 
-
+> Gettin freaky on a Friday night y'all!
+> Made with Newgrounds love and passion to mind, Friday Night Funkin' is a 4-key rhythm game originally made for the Ludum Dare game jam. Over the years, Newgrounds has been a to-go site for many people, especially in the early 2000's, mainly to play flash games or animations. Friday Night Funkin' pays tribute to that by trying to look a bit like a flash animation in the form of a video game, with the line, "Cartoon Rhythm Gaming Excellence." 
+> Shoutouts to Tom Fulp, how much do I need to say it?
 
 Quick Notes!
 ----------------------------------------------
@@ -42,6 +44,9 @@ Code:
 [ ] Backgrounds
 [ ] Minor Engine Changes
 [X] Proper macOS build? [Compatible!]
+[ ] Time Bar
+[ ] Other Engine UI
+[ ] Winning Icons (prob won't happen)
 ----------------------------------------------
 
 Extra additions!
