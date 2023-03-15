@@ -23,7 +23,8 @@ class InfoHud extends TextField
 	public static var displayFps = true;
 	public static var displayMemory = true;
 	public static var displayExtra = true;
-
+	public static var displayGame = true;
+	
 	// I also like to set them up so that you can call on them later since they're static
 	// anyways heres some other stuff I didn't write most of this so its just standard fps stuff
 	private var cacheCount:Int;
@@ -49,7 +50,7 @@ class InfoHud extends TextField
 		width = Main.gameWidth;
 		height = Main.gameHeight;
 
-		text = "FPS: \nState: \nMemory:";
+		text = "FPS: \nState: \nMemory: \nGame";
 
 		cacheCount = 0;
 		currentTime = 0;
@@ -91,9 +92,11 @@ class InfoHud extends TextField
 		if (displayMemory)
 		{
 			memoryUsage = Math.round(System.totalMemory / (1e+6)); // division to convey the memory usage in megabytes
-			text += "Memory: " + memoryUsage + " mb";
-			// mb stands for my bad
+			text += "Memory: " + memoryUsage + ".mb";
+			// mb stands for my beans
 		}
+		if (displayGame)
+			text += "Friday Night Funkin' Fanmasters";
 	}
 
 	// be able to call framerates later on
@@ -113,5 +116,6 @@ class InfoHud extends TextField
 		displayFps = shouldDisplayFps;
 		displayExtra = shouldDisplayExtra;
 		displayMemory = shouldDisplayMemory;
+		displayGame = shouldDisplayGame;
 	}
 }
