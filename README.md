@@ -28,25 +28,39 @@ For those who are new to Friday Night Funkin' and its modding scene, Forever Eng
 
 To do:
 ----------------------------------------------
-I don't care how big this section gets over time, as long as it is manageable.
+I don't care how big this section gets over time, as long as it is manageable. || X = Completed, - = Work In Progress, 0 = getting there.
 
 Remasters:
-[ ] Hex Fanmaster [Being worked on]
-[ ] VS July Fanmaster (Low priority.)
+[0] Hex Fanmaster [Being worked on, technical stuff almost done.]
+
+[-] VS July Fanmaster (Low priority.)
+
 [ ] SNS Fanmaster (Medium priority.)
-[ ] Whitty Fanmaster (High priority.)
+
+[-] Whitty Fanmaster (High priority.)
+
 [ ] FlimFlam Fanmaster (Perhaps)
+
 [ ] VS Mario (the one with the Peach over GF skin.)
+
 [ ] VS Stev Hervy (maybe)
 
 
+
 Code:
-[ ] Backgrounds
-[ ] Minor Engine Changes
+
+[0] Backgrounds
+
+[-] Minor Engine Changes
+
 [X] Proper macOS build? [Compatible!]
+
 [ ] Time Bar
-[ ] Other Engine UI
+
+[ ] Other Engines UI
+
 [ ] Winning Icons (prob won't happen)
+
 ----------------------------------------------
 
 Extra additions!
@@ -79,7 +93,7 @@ Sayofthelor - Screenshot plugin.
 How to Compile:
 ----------------------------------------------
 
-Basically, all of the files you need are in the engine itself through the setup.bat (Huge thanks to [FNF Source Code Guide](https://gamebanana.com/tuts/13798) for the download to the file) except for Visual Studio Code, or whatever program you choose to use to program in the engine. If you've already worked with FNF', this should work perfectly with you and if it doesn't, then you might have the wrong target settings, or Lime is probably broken, that's usually what happens with these things. It's happened to me a ton of times, I'm not a good programmer.
+Basically, all of the files you need are in the engine itself through the setup.bat file. (Huge thanks to [FNF Source Code Guide](https://gamebanana.com/tuts/13798) for the download to the file) If you've already worked with FNF', this should work perfectly with you and if it doesn't, then you might have the wrong target settings, Lime is probably broken, or you probably typed something wrong. That's usually what happens with these things. It's happened to me a ton of times, I'm not a good programmer.
 
 When you finish with that, put the following in the terminal:
 ```
