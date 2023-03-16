@@ -106,12 +106,12 @@ If you want some external sources that will better walk you through how to compi
 ----------------------------------------------
 Bookmarks
 ----------------------------------------------
-[Main.hx](source/Main.hx)
-[Menus](source/meta/state/menus)
-[Playstate](source/meta/state/PlayState.hx)
-[User Interface Objects](source/gameObjects/userInterface/)
-[Health Icon Code](source/gameObjects/userInterface/HealthIcon.hx)
-[Charting State](source/meta/state/charting/ChartingState.hx)
+- [Main.hx](source/Main.hx)
+- [Menus](source/meta/state/menus)
+- [Playstate](source/meta/state/PlayState.hx)
+- [User Interface Objects](source/gameObjects/userInterface/)
+- [Health Icon Code](source/gameObjects/userInterface/HealthIcon.hx)
+- [Charting State](source/meta/state/charting/ChartingState.hx)
 
 
 
