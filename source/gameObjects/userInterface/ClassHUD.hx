@@ -40,6 +40,7 @@ class ClassHUD extends FlxTypedGroup<FlxBasic>
 	private var SONG = PlayState.SONG;
 	public var iconP1:HealthIcon;
 	public var iconP2:HealthIcon;
+	public var healthHeads;
 	private var stupidHealth:Float = 0;
 
 	private var timingsMap:Map<String, FlxText> = [];
@@ -97,7 +98,7 @@ class ClassHUD extends FlxTypedGroup<FlxBasic>
 		add(iconP2);
 		
 		// Old Icons :skull:
-		healthHeads = new FlxSprite();
+		/* healthHeads = new FlxSprite();
 		var headTex = FlxAtlasFrames.fromSparrow(AssetPaths.healthHeads__png, AssetPaths.healthHeads__xml);
 		healthHeads.frames = headTex;
 		healthHeads.animation.add('healthy', [0]);
@@ -107,6 +108,7 @@ class ClassHUD extends FlxTypedGroup<FlxBasic>
 		healthHeads.scrollFactor.set();
 		healthHeads.antialiasing = true;
 		add(healthHeads);
+		*/
 		// Based off of 0.2.1.1's code?
 		
 		
