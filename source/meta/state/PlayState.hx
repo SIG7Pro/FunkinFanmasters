@@ -1,3 +1,4 @@
+//Reverted to 'original' Forever Engine code, might not work.
 package meta.state;
 
 import flixel.FlxBasic;
@@ -201,8 +202,6 @@ class PlayState extends MusicBeatState
 		/// here we determine the chart type!
 		// determine the chart type here
 		determinedChartType = "FNF"; //What is the point of this, like seriously?? Did they want to add Arrow Vortex chart support? -Kirby
-		//Shut up, Kirby. 
-		//-Quoted from Ivan
 
 		//
 
@@ -255,7 +254,7 @@ class PlayState extends MusicBeatState
 
 		// add limo cus dumb layering
 		if (curStage == 'highway')
-			add(stageBuild.limo);
+			add(stageBuild.limo); //WHY IS THIS HERE OF ALL PLACES?? -Kirb
 
 		add(dadOpponent);
 		add(boyfriend);
@@ -562,44 +561,18 @@ class PlayState extends MusicBeatState
 			// make sure you're not cheating lol
 			if (!isStoryMode)
 			{
-				//
-				//
-				//
-				//
-				//
-				//
-				//
-				//
-				//
-				//
-				//
 				// charting state (more on that later)
 				if ((FlxG.keys.justPressed.SEVEN) && (!startingSong))
 				{
 					resetMusic();
 					if (Init.trueSettings.get('Use Forever Chart Editor'))
-						FlxG.switchState(new meta.state.charting.ChartingState());
-						//I was bored and wanted to bring back the chart editor out of boredom.
+						Main.switchState(this, new ChartingState());
 					else
-						//Silly Forever Engine fork.
+						Main.switchState(this, new OriginalChartingState());
 				}
 
 				if ((FlxG.keys.justPressed.SIX))
 					boyfriendStrums.autoplay = !boyfriendStrums.autoplay;
-					
-				if ((FlxG.keys.justPressed.NINE))
-					//boyfriendStrums.autoplay = !boyfriendStrums.autoplay;
-				//
-				//
-				//
-				//
-				//
-				//
-				//
-				//
-				//
-				//
-				//
 			}
 
 			///*
@@ -1257,9 +1230,6 @@ class PlayState extends MusicBeatState
 		// painful if statement
 		if (((combo > 5) || (combo < 0)) && (gf.animOffsets.exists('sad')))
 			gf.playAnim('sad');
-		
-		if (((combo > 1000) || (combo < 0)) && (gf.animOffsets.exists('scared')))
-			gf.playAnim('scared');
 
 		if (combo > 0)
 			combo = 0; // bitch lmao
@@ -1399,7 +1369,7 @@ class PlayState extends MusicBeatState
 		songDetails = CoolUtil.dashToSpace(SONG.song) + ' - ' + CoolUtil.difficultyFromNumber(storyDifficulty);
 
 		// String for when the game is paused
-		detailsPausedText = "Game Paused - " + songDetails;
+		detailsPausedText = "Paused - " + songDetails;
 
 		// set details for song stuffs
 		detailsSub = "";
@@ -1614,39 +1584,6 @@ class PlayState extends MusicBeatState
 
 	private function songEndSpecificActions()
 	{
-		
-		
-		//
-		//
-		//
-		//
-		//
-		//
-		//
-		//
-		//
-		//
-			// hi guys saster here
-		//
-		//
-		//
-		//
-		//
-		//
-		//
-		///
-		//
-		//
-		//
-		///
-		//
-		///
-		//
-		//
-		//
-		//
-		//
-		
 		switch (SONG.song.toLowerCase())
 		{
 			case 'eggnog':
@@ -1921,6 +1858,3 @@ class PlayState extends MusicBeatState
 		return super.add(Object);
 	}
 }
-
-	
-	//I hate coding.
