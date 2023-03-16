@@ -70,7 +70,8 @@ class HealthIcon extends FlxSprite
 }
 
 //Funkin' Lullaby Shenanigans
-	public function swapOldIcon()
+//thanks to not billy for correcting the line below by stating i didn't need to make the line below public or something for a module lewel field
+	function swapOldIcon()
 	{
 		if (isOldIcon = !isOldIcon)
 			changeIcon('bf-old');
