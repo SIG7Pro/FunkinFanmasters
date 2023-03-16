@@ -101,7 +101,19 @@ haxelib install flixel-screenshot-plugin
 ```
 This is so that the game can take screenshots by pressing F2.
 
-If you want some external sources that will better walk you through how to compile the game, look no further than the [base game github](https://github.com/FunkinCrew/Funkin) and [FNF Source Code Guide](https://gamebanana.com/tuts/13798), I really hope they help you out!
+If you want some external sources that will better walk you through how to compile the game, look no further than the [base game GitHub](https://github.com/FunkinCrew/Funkin) and [FNF Source Code Guide](https://gamebanana.com/tuts/13798), I really hope they help you out!
+
+----------------------------------------------
+Bookmarks
+----------------------------------------------
+[Main.hx](source/Main.hx)
+[Menus](source/meta/state/menus)
+[Playstate](source/meta/state/PlayState.hx)
+[User Interface Objects](source/gameObjects/userInterface/)
+[Health Icon Code](source/gameObjects/userInterface/HealthIcon.hx)
+[Charting State](source/meta/state/charting/ChartingState.hx)
+
+
 
 ----------------------------------------------
 Thank you for checking this out!
