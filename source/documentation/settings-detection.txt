@@ -1,0 +1,2 @@
+//		if (Init.trueSettings.get('Downscroll'))
+trueSettings probably checks for a true/false setting and downscroll is an example of that
