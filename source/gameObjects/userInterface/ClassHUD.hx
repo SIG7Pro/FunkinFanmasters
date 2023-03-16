@@ -40,7 +40,7 @@ class ClassHUD extends FlxTypedGroup<FlxBasic>
 	private var SONG = PlayState.SONG;
 	public var iconP1:HealthIcon;
 	public var iconP2:HealthIcon;
-	public var healthHeads;
+	// public var healthHeads;
 	private var stupidHealth:Float = 0;
 
 	private var timingsMap:Map<String, FlxText> = [];
