@@ -88,7 +88,7 @@ NottCawthena - Emotional support sometimes and epic bestie all the time.
 
 Sayofthelor - Screenshot plugin.
 
-[ithub Markdown Document](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+[Github Markdown Document](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 ----------------------------------------------
 How to Compile:
 ----------------------------------------------
