@@ -11,9 +11,9 @@ What the FUNK is FRIDAY NIGHT FUNKIN'?
 ### Friday Night Funkin' is a rhythm game originally made for Ludum Dare 47 "Stuck In a Loop".
 
 Links: **[Official Website](https://www.funkin.me) ⋅  **[Play The Game](https://www.newgrounds.com/portal/view/770371) ⋅  [Download The Game (0.2.7.1)](https://ninja-muffin24.itch.io/funkin) ⋅ [Source Code](https://github.com/FunkinCrew/Funkin)**
-> Uh oh! Your tryin to kiss ur hot girlfriend, but her MEAN and EVIL dad is trying to KILL you! He's an ex-rockstar, the only way to get to his heart? The power of music... 
+> Uh oh! Your tryin to kiss ur _hot_ girlfriend, but her **_MEAN_** and **_EVIL_** dad is trying to **_KILL_** you! He's an ex-rockstar, the only way to get to his heart? The power of music... 
 > Gettin freaky on a Friday night y'all!
-> Made with Newgrounds love and passion to mind, Friday Night Funkin' is a 4-key rhythm game originally made for the Ludum Dare game jam. Over the years, Newgrounds has been a to-go site for many people, especially in the early 2000's, mainly to play flash games or animations. Friday Night Funkin' pays tribute to that by trying to look a bit like a flash animation in the form of a video game, with the line, "Cartoon Rhythm Gaming Excellence." 
+> Woop woop!
 > Shoutouts to Tom Fulp, how much do I need to say it?
 
 Quick Notes!
@@ -31,6 +31,7 @@ To do:
 I don't care how big this section gets over time, as long as it is manageable. || X = Completed, - = Work In Progress, 0 = getting there.
 
 Remasters:
+
 [0] Hex Fanmaster [Being worked on, technical stuff almost done.]
 
 [-] VS July Fanmaster (Low priority.)
@@ -55,11 +56,11 @@ Code:
 
 [X] Proper macOS build? [Compatible!]
 
-[ ] Time Bar
+[ ] Time Bar {Considering}
 
-[ ] Other Engines UI
+[ ] Other Engines UI {Unlikely}
 
-[ ] Winning Icons (prob won't happen)
+[ ] Winning Icons (Maybe)
 
 ----------------------------------------------
 
@@ -68,8 +69,7 @@ Extra additions!
 - Two "original" pixel note skins.
 - A slightly modified user interface.
 - OMG HEX
-- Betatested on macOS.
-- Screenshotting! (Press F2!)
+- Screenshotting! (Press F2! {Hasn't been tested on Windows or Linux yet.})
 
 
 ----------------------------------------------
@@ -77,14 +77,12 @@ ORIGINAL FUNKIN' FANMASTER CREDITS:
 ----------------------------------------------
 - [SIG7](https://resite.link/SIG7) - Main dude.
 
-- [AlexG1247](https://www.youtube.com/channel/UC2j8aQzjiv4qiwNF8qzmLNA) - Fella who helped with the stage code and fixed some other stuff.
+- [AlexG1247](https://www.youtube.com/channel/UC2j8aQzjiv4qiwNF8qzmLNA) - Fella who helped with the stage code and fixed some other stuff. <3
 
 ----------------------------------------------
 SPECIAL THANKS!
 ----------------------------------------------
 [j](https://github.com/j) - Jordan Stout is real!!!
-
-NottCawthena - Emotional support sometimes and epic bestie all the time.
 
 Sayofthelor - Screenshot plugin.
 
@@ -92,6 +90,8 @@ Sayofthelor - Screenshot plugin.
 ----------------------------------------------
 How to Compile:
 ----------------------------------------------
+
+THIS IS FOR COMPILING THE MOD ON YOUR PC!!!!! IF YOU WANT TO DOWNLOAD IT NORMALLY, USE A GITHUB ACTIONS BUILD INSTEAD!!!!!
 
 Basically, all of the files you need are in the engine itself through the setup.bat file. (Huge thanks to [FNF Source Code Guide](https://gamebanana.com/tuts/13798) for the download to the file) If you've already worked with FNF', this should work perfectly with you and if it doesn't, then you might have the wrong target settings, Lime is probably broken, or you probably typed something wrong. That's usually what happens with these things. It's happened to me a ton of times, I'm not a good programmer.
 
@@ -101,7 +101,7 @@ haxelib install flixel-screenshot-plugin
 ```
 This is so that the game can take screenshots by pressing F2.
 
-If you want some external sources that will better walk you through how to compile the game, look no further than the [base game GitHub](https://github.com/FunkinCrew/Funkin) and [FNF Source Code Guide](https://gamebanana.com/tuts/13798), I really hope they help you out!
+If you want some external sources that will better walk you through how to compile the game, look no further than the [base game GitHub](https://github.com/FunkinCrew/Funkin) and [FNF Source Code Guide](https://gamebanana.com/tuts/13798), I hope they can help you out.
 
 ----------------------------------------------
 Bookmarks
