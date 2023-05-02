@@ -12,16 +12,16 @@ What the FUNK is FRIDAY NIGHT FUNKIN'?
 
 Links: **[Official Website](https://www.funkin.me) ⋅  **[Play The Game](https://www.newgrounds.com/portal/view/770371) ⋅  [Download The Game (0.2.7.1)](https://ninja-muffin24.itch.io/funkin) ⋅ [Source Code](https://github.com/FunkinCrew/Funkin)**
 > Uh oh! Your tryin to kiss ur _hot_ girlfriend, but her **_MEAN_** and **_EVIL_** dad is trying to **_KILL_** you! He's an ex-rockstar, the only way to get to his heart? The power of music... 
-> Gettin freaky on a Friday night y'all!
+> Gettin freaky on a Friday night yeah!
 > Woop woop!
 > Shoutouts to Tom Fulp, how much do I need to say it?
 
 Quick Notes!
 ----------------------------------------------
-This is a collection of fanmade remasters (in the form of re-sprites, and in the rare instances, code and music) that I've made based off of other people's modifications of Friday Night Funkin', but put on Forever Engine, another Friday Night Funkin'. That doesn't mean the fanmasters are better than the originals however, this is only a tribute to Friday Night Funkin' and its modding community, a small project of mine that I hope people can find enjoyment and use out of!
+This is a collection of fanmade remasters (in the form of re-sprites, and in the rare instances, code and music) that I've made based off of other people's modifications of Friday Night Funkin', but put on Forever Engine, another Friday Night Funkin' mod. That doesn't mean the fanmasters are better than the originals however, this is only a tribute to Friday Night Funkin' and its modding community, a small passion project of mine that I hope people can find enjoyment and use out of!
 
 
-For those who are new to Friday Night Funkin' and its modding scene, Forever Engine is a rewrite of the game intended for ease of access, which includes things such as a redone options menu, colorblind filters, noteskins, and more!
+For those who are new to Friday Night Funkin' and its modding scene, Forever Engine is a total rewrite of the game intended for ease of access, which includes things such as a redone options menu, colorblind filters, noteskins, and more!
 
 **FOREVER ENGINE IS ONLY MEANT TO BE USED ON DESKTOP! BIG L MOMENTO!**
 
@@ -60,7 +60,7 @@ Code:
 
 [ ] Other Engines UI {Unlikely}
 
-[ ] Winning Icons (Maybe)
+[0] Winning Icons (Maybe)
 
 ----------------------------------------------
 
@@ -73,7 +73,7 @@ Extra additions!
 
 
 ----------------------------------------------
-ORIGINAL FUNKIN' FANMASTER CREDITS:
+ORIGINAL FUNKIN' FANMASTERS CREDITS:
 ----------------------------------------------
 - [SIG7](https://resite.link/SIG7) - Main dude.
 
@@ -116,5 +116,5 @@ Bookmarks
 
 
 ----------------------------------------------
-Thank you for checking this out!
+[Thank you for checking this out!](https://discord.gg/v6yvDv9TQ7)
 ----------------------------------------------
