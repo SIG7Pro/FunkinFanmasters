@@ -1,3 +1,12 @@
+# Deprecated
+Funkin' Fanmasters may be phased out with another mod of mine, Style Plus. When the time comes, it will be linked here.
+But for now, this shall be unpinned and archived.
+
+-
+
+## Old Description Below
+_____________________
+
 # [Funkin' Fanmasters](https://github.com/SIG7Pro/FunkinFanmasters)
 Built off of an open-source, modular, optimized, and HOPEFULLY easy to use [Friday Night Funkin'](https://www.newgrounds.com/portal/view/770371) mod engine!
 ----------------------------------------------
